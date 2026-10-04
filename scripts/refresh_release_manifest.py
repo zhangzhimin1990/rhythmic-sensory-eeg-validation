@@ -22,13 +22,17 @@ def refresh(package: Path) -> dict[str, object]:
     manifest = package / "release_candidate_manifest.csv"
     cache_files = [
         path for path in package.rglob("*")
-        if path.is_file() and ("__pycache__" in path.parts or path.suffix == ".pyc")
+        if path.is_file()
+        and ".git" not in path.relative_to(package).parts
+        and ("__pycache__" in path.parts or path.suffix == ".pyc")
     ]
     if cache_files:
         raise RuntimeError("Python cache files must not enter the release: " + ", ".join(map(str, cache_files)))
     files = sorted(
         path for path in package.rglob("*")
-        if path.is_file() and path != manifest
+        if path.is_file()
+        and path != manifest
+        and ".git" not in path.relative_to(package).parts
     )
     rows = [
         {

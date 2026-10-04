@@ -89,6 +89,8 @@ def audit_release(package: Path, output: Path) -> dict:
     for path in sorted(package.rglob("*")):
         if not path.is_file():
             continue
+        if ".git" in path.relative_to(package).parts:
+            continue
         try:
             path.resolve().relative_to(output)
             continue
@@ -140,7 +142,7 @@ def audit_release(package: Path, output: Path) -> dict:
     for issue in issues:
         counts[issue.severity] += 1
     summary = {
-        "release_candidate": str(package),
+        "release_candidate": package.name,
         "file_count": len(rows),
         "issue_counts": counts,
         "machine_audit_passed": counts["Critical"] == 0 and counts["High"] == 0,
