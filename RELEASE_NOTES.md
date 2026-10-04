@@ -29,4 +29,4 @@ python3 -m venv .venv
 bash scripts/reproduce_from_derived.sh .venv/bin/python
 ```
 
-The repository URL, immutable commit, Git tag, and archival DOI will be inserted into the manuscript after deposition.
+The archived release resolves to commit `86ad30436aad2ecda28e59a4127188011b5eca4d`, Git tag `v1.0.0`, and Zenodo version DOI `10.5281/zenodo.23137958`.

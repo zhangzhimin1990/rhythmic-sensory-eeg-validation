@@ -15,6 +15,10 @@ version: 1.0.0
 date-released: 2026-10-04
 license: MIT
 repository-code: "https://github.com/zhangzhimin1990/rhythmic-sensory-eeg-validation"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23137958"
+    description: "Archived software release v1.0.0"
 preferred-citation:
   type: article
   title: "Testing cognitive validity of rhythmic-sensory EEG target engagement"

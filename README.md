@@ -1,5 +1,7 @@
 # Human rhythmic sensory EEG validation across public cohorts
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23137958.svg)](https://doi.org/10.5281/zenodo.23137958)
+
 This repository supports a multi-cohort secondary analysis of human EEG responses to rhythmic visual, auditory, and audiovisual stimulation. The central question is when a measurable frequency-following response can—and cannot—be upgraded to a reliable, cognitively informative, or individually predictive marker.
 
 ## Scientific scope
@@ -12,7 +14,7 @@ This is not a clinical trial and does not test chronic treatment efficacy or dis
 
 ### Level 1: regenerate manuscript figures from audited derived outputs
 
-The release candidate contains the code, source-backed derived tables, model outputs, tests, and manifests needed to rebuild Figures 1–7 and rerun the claim-strength analysis without redistributing source EEG.
+The archived v1.0.0 release contains the code, source-backed derived tables, model outputs, tests, and manifests needed to rebuild Figures 1–7 and rerun the claim-strength analysis without redistributing source EEG. The immutable archive is available at https://doi.org/10.5281/zenodo.23137958.
 
 ```bash
 python3 -m venv .venv
