@@ -1,0 +1,4 @@
+outcome,predictor,n,pearson_r,ci95_low,ci95_high,p_value,label,color
+personalized_improvement_percent,bl_rt,44,0.3492445055557392,0.0584158949506375,0.5854293901747128,0.0201451730515782,Improvement vs own baseline,#DD971A
+personalized_advantage_vs_2Hz_ms,bl_rt,44,-0.1332379980656727,-0.4137567574609221,0.1703874193356186,0.3885713134575702,Personalized advantage vs 2 Hz,#2B6CB0
+personalized_advantage_vs_NR_ms,bl_rt,44,-0.4749554529116597,-0.6764557015579613,-0.2073009135845449,0.0011231165619611,Personalized advantage vs NR,#7A52A1

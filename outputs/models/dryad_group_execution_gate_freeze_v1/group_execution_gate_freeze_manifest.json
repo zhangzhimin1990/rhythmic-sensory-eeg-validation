@@ -1,0 +1,31 @@
+{
+  "freeze_id": "dryad_group_execution_gate_v1",
+  "status": "frozen_before_confirmatory_cohort_completion",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "scientific_estimators_changed": false,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/execute_dryad_confirmatory_group_locked.py",
+      "bytes": 4719,
+      "sha256": "7f3488279a38fcfe239e36fe795d22038a78745fcbf3a44ca0d44a37055cbd22"
+    },
+    {
+      "path": "scripts/freeze_dryad_group_execution_gate.py",
+      "bytes": 2751,
+      "sha256": "545258d82929df3c188a2fe454a2f7b3907ca601cb2a04bcd1cda88f5d0550ee"
+    },
+    {
+      "path": "tests/test_execute_dryad_confirmatory_group_locked.py",
+      "bytes": 4260,
+      "sha256": "1af799708c623bbbc7bce2520c58d9e75a809679fcaa6a9467bfa0b2e4265a5c"
+    },
+    {
+      "path": "95_Dryad确认性总体分析机器解锁闸门.md",
+      "bytes": 1524,
+      "sha256": "94b7ad6bf2694a0df1bd350b5f54b9f32267b3acf655c23ddfcfc4b9d9e50f14"
+    }
+  ],
+  "manifest_sha256": "97f81becf15989df34afa2ac00e1186c88d20ab56fa277cea3042af885b33101"
+}

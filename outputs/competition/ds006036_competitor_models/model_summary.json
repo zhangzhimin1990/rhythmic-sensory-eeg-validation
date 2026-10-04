@@ -1,0 +1,11 @@
+{
+  "exact_pipeline_subjects": 86,
+  "ten_hz_available": 80,
+  "four_frequency_complete": 76,
+  "minimum_exact_vs_published_r": 0.9999783640198533,
+  "direct_raw_min_p": 0.06792227450152295,
+  "selectivity_raw_max_p": 0.031601250598120086,
+  "mixed_raw_max_p": 0.005849937366455814,
+  "interpretation": "Exact pipeline reproduces the published feature matrix. The selective repeated-frequency/group contrast is supported, while direct raw 10-Hz OLS is imprecise and within-diagnosis MMSE associations are weak.",
+  "external_code": "https://github.com/pedrovelezpardo/EEG_Photic_AD_FTD commit ae42f58"
+}

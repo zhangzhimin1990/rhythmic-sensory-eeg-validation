@@ -1,0 +1,9 @@
+{
+  "status": "confirmatory_inferential_completion_audit_complete",
+  "n_subjects": 35,
+  "prediction_increment_claim_unlocked": false,
+  "locked_rule": "baseline-plus-neural must reduce MAE versus both comparators with both participant-bootstrap 95% lower bounds above zero, and reduce point RMSE versus both; Spearman increments are supporting estimates",
+  "if_not_unlocked": "no consistent out-of-sample predictive increment",
+  "primary_estimator_changed": false,
+  "participant_level_derivation_changed": false
+}

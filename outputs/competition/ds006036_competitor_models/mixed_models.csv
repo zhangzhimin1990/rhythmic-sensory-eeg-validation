@@ -1,0 +1,7 @@
+analysis,outcome,contrast,n_observations,n_subjects,coefficient,standard_error,ci_low,ci_high,p_value,converged,random_intercept_variance,warnings
+four_frequency_random_intercept,raw_di,AD-CN_at_10hz,324,86,-6.518549520644216,2.1052849185582927,-10.644907961018468,-2.3921910802699626,0.0019596586764985234,True,20.763106196575137,Random effects covariance is singular
+four_frequency_random_intercept,raw_di,FTD-CN_at_10hz,324,86,-6.387893065271476,2.3177491077456307,-10.930681316452912,-1.84510481409004,0.005849937366455814,True,20.763106196575137,Random effects covariance is singular
+four_frequency_random_intercept,log1p_di,AD-CN_at_10hz,324,86,-0.5655695995951998,0.19914256851776865,-0.9558890338900263,-0.17525016530037324,0.0045110192660138436,True,0.22096818271698893,Random effects covariance is singular
+four_frequency_random_intercept,log1p_di,FTD-CN_at_10hz,324,86,-0.6155942332408048,0.21927113326718153,-1.0453656544444805,-0.18582281203712897,0.004993437753235751,True,0.22096818271698893,Random effects covariance is singular
+four_frequency_random_intercept,winsor_di,AD-CN_at_10hz,324,86,-3.7170848330002833,1.498462893773838,-6.654072104797006,-0.780097561203561,0.0131162012794787,True,11.22825316080706,Random effects covariance is singular
+four_frequency_random_intercept,winsor_di,FTD-CN_at_10hz,324,86,-3.6686310273670877,1.6497225712646215,-6.902087267045745,-0.43517478768842954,0.026162802137739503,True,11.22825316080706,Random effects covariance is singular

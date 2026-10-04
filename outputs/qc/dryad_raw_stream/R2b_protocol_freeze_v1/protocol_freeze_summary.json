@@ -1,0 +1,12 @@
+{
+  "protocol_id": "dryad_r2b_technical_v1",
+  "status": "frozen_before_validation_data_access",
+  "n_frozen_assets": 19,
+  "n_development_subjects": 5,
+  "n_development_technical_pass": 5,
+  "n_validation_subjects": 39,
+  "required_validation_technical_passes": 32,
+  "threshold_sensitivity_grid_all_pass": true,
+  "manifest_sha256": "fcb8a934be29882795fe37a510e96cee448a4c6e9363f911a7c41a45be837fa6",
+  "result_bearing_fields_emitted": false
+}

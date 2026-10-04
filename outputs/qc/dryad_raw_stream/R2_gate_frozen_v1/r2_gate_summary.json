@@ -1,0 +1,28 @@
+{
+  "n_participants": 5,
+  "technical_pass_count": 3,
+  "technical_go_requires_at_least_4_of_5": false,
+  "positive_contrast_counts": {
+    "full_itpc": 4,
+    "odd_itpc": 4,
+    "even_itpc": 4,
+    "evoked_snr": 4
+  },
+  "median_contrasts": {
+    "full_itpc": 0.19519771226169141,
+    "odd_itpc": 0.16736242619156483,
+    "even_itpc": 0.12247614074916319,
+    "evoked_snr": 15.005385341401013
+  },
+  "measurement_components": {
+    "full_itpc_median_positive": true,
+    "full_itpc_positive_in_at_least_4_of_5": true,
+    "odd_itpc_positive_in_at_least_3_of_5": true,
+    "even_itpc_positive_in_at_least_3_of_5": true,
+    "evoked_snr_median_positive": true,
+    "evoked_snr_positive_in_at_least_3_of_5": true
+  },
+  "measurement_go": true,
+  "overall_r2_go": false,
+  "scope": "R2 is a pipeline and measurement heterogeneity gate. The theta-plus versus non-rhythmic contrast is evaluated at the same analysis frequency and functions as a temporal-regularity/pipeline-sensitivity check; it is not a matched-stimulus-frequency comparison, group significance test, or entrainment mechanism claim."
+}

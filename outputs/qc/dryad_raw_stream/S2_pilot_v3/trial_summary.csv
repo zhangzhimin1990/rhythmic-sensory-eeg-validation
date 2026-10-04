@@ -1,0 +1,16 @@
+condition,congruency,response_class,n_trials,median_rt_ms,plausible_rt_fraction,valid_sequence_fraction
+2_hz,congruent,correct,47,472.16796875,1.0,1.0
+2_hz,congruent,incorrect,1,476.07421875,1.0,1.0
+2_hz,incongruent,correct,46,521.240234375,1.0,1.0
+2_hz,incongruent,incorrect,1,390.625,1.0,1.0
+2_hz,incongruent,omission,1,,0.0,1.0
+f_theta,congruent,correct,48,480.46875,1.0,1.0
+f_theta,incongruent,correct,44,504.8828125,1.0,1.0
+f_theta,incongruent,incorrect,4,479.98046875,1.0,1.0
+f_theta_plus,congruent,correct,48,474.12109375,1.0,1.0
+f_theta_plus,incongruent,correct,46,514.6484375,1.0,1.0
+f_theta_plus,incongruent,incorrect,2,402.099609375,1.0,1.0
+non_rhythmic,congruent,correct,46,471.435546875,1.0,1.0
+non_rhythmic,congruent,incorrect,2,473.6328125,1.0,1.0
+non_rhythmic,incongruent,correct,47,500.0,1.0,1.0
+non_rhythmic,incongruent,incorrect,1,404.296875,1.0,1.0

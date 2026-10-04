@@ -1,0 +1,9 @@
+concept_id,canonical_term,allowed_forms,distinguish_from,status
+study_framework,four inferential transitions,T1–T4,validation hierarchy,resolved
+observed_response,frequency-following response,target engagement,entrainment of an endogenous oscillator,resolved
+reliability,within-recording split-half reliability,within-recording stability; split-half rank stability,between-day test–retest reliability,resolved
+cognitive_validity,metric- and aggregation-level-matched cognitive validity,matched cognitive validity; concurrent validity,group sensitivity; developmental sensitivity,resolved
+behavioral_effect,mean active-control behavioral effect,mean behavioral advantage over active 2 Hz stimulation,chronic treatment efficacy,resolved
+coupling,within-participant neural–behavioral coupling,condition-level neural–behavioral coupling,between-participant association,resolved
+prediction,held-out incremental prediction,out-of-sample prediction; out-of-participant prediction; nested held-out prediction,in-sample association,resolved
+dryad_figure_status,candidate Figure 7,conditional Figure 7,confirmed raw-EEG main figure,resolved

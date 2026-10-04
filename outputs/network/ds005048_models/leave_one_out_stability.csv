@@ -1,0 +1,3 @@
+outcome,full_coefficient,leave_one_out_min,leave_one_out_max,sign_stable
+central_minus_frontal_snr_db,-0.05855811236926667,-0.1960248807253686,0.012402004753778235,False
+csd_central_frontal_abs_imcoh,-0.0006271797956825796,-0.002010624504123629,5.344069509950061e-05,False

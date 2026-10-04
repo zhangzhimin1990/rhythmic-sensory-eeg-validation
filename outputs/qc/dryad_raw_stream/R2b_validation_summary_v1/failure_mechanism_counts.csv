@@ -1,0 +1,7 @@
+technical_gate,n_failed
+channel_count_and_quality_gate,1
+eeg_event_coverage_gate,0
+four_event_cells_observed_gate,0
+overall_epoch_usability_gate,2
+minimum_event_cell_usability_gate,2
+analysis_window_margin_gate,0

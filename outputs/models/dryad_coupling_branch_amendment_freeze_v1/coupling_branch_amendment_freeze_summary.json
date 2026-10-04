@@ -1,0 +1,10 @@
+{
+  "freeze_id": "dryad_coupling_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "gee_estimators_changed": false,
+  "multiplicity_family_changed": false,
+  "contains_condition_effects": false,
+  "manifest_sha256": "2115af1641110d22849673346bdc81e8b977faebedd5b1501fa2eef32f021044"
+}

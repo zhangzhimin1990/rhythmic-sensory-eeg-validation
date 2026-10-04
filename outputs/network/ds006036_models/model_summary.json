@@ -1,0 +1,9 @@
+{
+  "n_subject_frequency_cells": 311,
+  "n_subjects": 85,
+  "minimum_primary_severity_q": 0.8695073202445167,
+  "minimum_primary_group_q": 0.7996994828243128,
+  "minimum_rest_predictor_q": 0.10986526391624525,
+  "maximum_average_native_imcoh_rho": 0.3086387296913612,
+  "analysis_boundary": "Foundation models; short windows and reference sensitivity preclude cortical propagation claims."
+}

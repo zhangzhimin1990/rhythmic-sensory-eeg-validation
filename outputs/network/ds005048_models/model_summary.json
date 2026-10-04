@@ -1,0 +1,10 @@
+{
+  "n_subjects": 35,
+  "n_with_mmse": 33,
+  "n_blocks": 210,
+  "n_blocks_at_or_below_100uv": 195,
+  "minimum_primary_incremental_q": 0.8109201549602456,
+  "minimum_exploratory_incremental_q": 0.9953462621295998,
+  "minimum_split_half_rho": -0.2039215686274509,
+  "analysis_boundary": "Advanced auditory features are measurable, but clinical increment requires FDR and sensitivity support."
+}

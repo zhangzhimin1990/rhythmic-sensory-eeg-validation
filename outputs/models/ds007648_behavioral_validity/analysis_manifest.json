@@ -1,0 +1,11 @@
+{
+  "input_trials": "outputs/derived/ds007648_trial_features/all_trial_features.csv",
+  "input_summary": "outputs/derived/ds007648_trial_features/subject_summary.csv",
+  "main_feature": "leave-one-trial-out phase-projected target-frequency coefficient",
+  "main_sample_rule": "eeg_valid; sub-18 retained after manual audit",
+  "sensitivity": [
+    "strict EOG",
+    "exclude sub-18",
+    "Hilbert envelope log ratio"
+  ]
+}

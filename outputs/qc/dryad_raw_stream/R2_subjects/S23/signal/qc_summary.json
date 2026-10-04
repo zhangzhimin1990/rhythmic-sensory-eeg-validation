@@ -1,0 +1,16 @@
+{
+  "source_bdf": "S23_Stim.bdf",
+  "individual_theta_hz": 2.86,
+  "n_scalp_channels": 64,
+  "n_bad_channels": 0,
+  "bad_channels": [],
+  "n_good_channels": 64,
+  "n_trials": 384,
+  "n_usable_trials": 376,
+  "trial_rejection_fraction": 0.02083333333333337,
+  "analysis_window_seconds_after_stimulation_onset": [
+    0.25,
+    1.75
+  ],
+  "preprocessing_identity": "automated R1 pilot; not an exact reproduction of manual EEGLAB/ICA cleaning"
+}

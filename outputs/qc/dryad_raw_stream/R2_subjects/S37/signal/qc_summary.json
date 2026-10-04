@@ -1,0 +1,25 @@
+{
+  "source_bdf": "S37_Stim.bdf",
+  "individual_theta_hz": 3.35,
+  "n_scalp_channels": 64,
+  "n_bad_channels": 8,
+  "bad_channels": [
+    "Fp1",
+    "AF7",
+    "F5",
+    "Fpz",
+    "Fp2",
+    "AF8",
+    "F4",
+    "F8"
+  ],
+  "n_good_channels": 56,
+  "n_trials": 379,
+  "n_usable_trials": 369,
+  "trial_rejection_fraction": 0.02638522427440637,
+  "analysis_window_seconds_after_stimulation_onset": [
+    0.25,
+    1.75
+  ],
+  "preprocessing_identity": "automated R1 pilot; not an exact reproduction of manual EEGLAB/ICA cleaning"
+}

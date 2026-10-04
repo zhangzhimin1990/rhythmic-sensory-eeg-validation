@@ -1,0 +1,2 @@
+outcome,validation,n_subjects,base_mae_ms,model_mae_ms,delta_mae_model_minus_base_ms,delta_mae_ci95_low,delta_mae_ci95_high,base_rmse_ms,model_rmse_ms,prediction_outcome_r,prediction_outcome_p,feature_timing
+personalized_advantage_ms,nested_leave_one_subject_out,44,14.560581395348828,14.643779944883876,0.08319854953505,-0.31718043219850794,0.49422775230799837,18.954728948913264,19.122444250494976,-0.3521404623934486,0.019066374944131503,pretreatment

@@ -1,0 +1,6 @@
+subject,n_bad_channels,n_good_channels,n_good_frontocentral_roi_channels,n_recorded_target_events,n_eeg_usable_event_sequences,event_coverage_fraction,n_technically_usable_epochs,overall_epoch_usable_fraction,minimum_event_cell_usable_fraction,minimum_analysis_window_pre_target_margin_ms,technical_pass_candidate
+2,0,64,5,384,384,1.0,383,0.9973958333333334,0.9895833333333334,195.80078125,True
+13,3,61,5,384,384,1.0,381,0.9921875,0.9895833333333334,249.51171875,True
+23,0,64,5,384,384,1.0,376,0.9791666666666666,0.9375,249.51171875,True
+27,8,56,5,384,384,1.0,382,0.9947916666666666,0.9895833333333334,154.296875,True
+37,6,58,5,379,379,0.9869791666666666,369,0.9736147757255936,0.9583333333333334,249.51171875,True

@@ -1,0 +1,30 @@
+{
+  "freeze_id": "dryad_freeze_chain_verifier_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-30",
+  "n_assets": 4,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/verify_dryad_confirmatory_freeze_chain.py",
+      "bytes": 4753,
+      "sha256": "3f6aa37a2b897972666b7eb8b6fb39fef421609efe1e7a55e02289af909b4462"
+    },
+    {
+      "path": "scripts/freeze_dryad_freeze_chain_verifier.py",
+      "bytes": 2575,
+      "sha256": "37d94cd13187a742a619247e30c21f7291128a5b864215838bda05ee0db31969"
+    },
+    {
+      "path": "tests/test_verify_dryad_confirmatory_freeze_chain.py",
+      "bytes": 2237,
+      "sha256": "cf787788b3714ab4ed27ba2a1070d59e012e9fc0cb96e7d46f7aca4d5c4f5af6"
+    },
+    {
+      "path": "101_Dryad确认性全冻结链完整性验证.md",
+      "bytes": 1198,
+      "sha256": "b5bf51bd8790b8dd215ba9fd5f9f9fc118093152cbb95f73ec11997f7a3d4a96"
+    }
+  ],
+  "manifest_sha256": "0ffcd0b5b93d70d46a56cc2376ea4f68e5de91bed015ca86b13e2124807941a4"
+}

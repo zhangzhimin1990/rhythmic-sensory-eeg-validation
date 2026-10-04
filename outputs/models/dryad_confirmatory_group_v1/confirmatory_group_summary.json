@@ -1,0 +1,13 @@
+{
+  "protocol_id": "dryad_theta_plus_confirmatory_v1",
+  "n_confirmatory_subjects": 35,
+  "primary_metric": "mean_itpc_in_stimulation_window",
+  "primary_estimate": 0.08764437004663592,
+  "primary_ci95": [
+    0.05138156238833301,
+    0.12390717770493882
+  ],
+  "primary_p_value_two_sided": 2.234570247183696e-05,
+  "claim_scope": "acute_target_engagement_and_concurrent_validity_not_treatment_efficacy",
+  "status": "confirmatory_group_analysis_complete"
+}

@@ -1,0 +1,10 @@
+{
+  "freeze_id": "dryad_prediction_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "prediction_estimators_changed": false,
+  "bootstrap_retraining_added": false,
+  "contains_condition_effects": false,
+  "manifest_sha256": "b2750e6ca81f1d4aad75ae6f518594f1bc97c2fc1ea10e975f13d69185c964c1"
+}

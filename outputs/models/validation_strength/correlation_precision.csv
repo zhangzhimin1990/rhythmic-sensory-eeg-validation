@@ -1,0 +1,4 @@
+dataset,population,outcome,predictor,effect_scale,n,estimate,ci90_low,ci90_high,ci95_low,ci95_high,bootstrap_iterations_valid,interpretation
+ds005048,older_adults_MCI_AD,MMSE,40Hz_stim_minus_rest_local_snr,spearman_rho,33,0.08526702430431028,-0.2222687392035931,0.36912632640393445,-0.28345893939318423,0.4174743421904597,20000,imprecise_no_task_specific_equivalence_bound
+ds006036,AD,MMSE,closed_eye_10Hz_driving_index,spearman_rho,32,0.12458071903631705,-0.17435007285006415,0.39793329002306754,-0.23320691214578818,0.4424290218797607,20000,imprecise_within_diagnosis_association
+ds006036,FTD,MMSE,closed_eye_10Hz_driving_index,spearman_rho,21,-0.2367333475893493,-0.5570450450661082,0.14112220766687283,-0.6110315851521642,0.22059549279450325,20000,imprecise_within_diagnosis_association

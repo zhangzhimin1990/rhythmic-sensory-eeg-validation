@@ -1,0 +1,112 @@
+{
+  "protocol_id": "dryad_theta_plus_confirmatory_v1",
+  "status": "design_locked_before_confirmatory_signal_reaccess",
+  "source_dataset_doi": "10.5061/dryad.t76hdr8dm",
+  "development_subjects_excluded": [2, 13, 23, 27, 37],
+  "technical_failures_excluded": [1, 15, 25, 41],
+  "confirmatory_subjects": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 21, 22, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 38, 39, 40, 42, 43, 44],
+  "n_confirmatory_subjects": 35,
+  "active_contrast": {
+    "experimental_condition": "f_theta_plus",
+    "control_condition": "non_rhythmic",
+    "common_analysis_frequency_hz": "1.33 * individual_theta_hz",
+    "interpretation": "temporal_regularisation contrast at a matched analysis frequency; not proof of entrainment mechanism"
+  },
+  "preprocessing": {
+    "channel_qc": "dryad_r2b_technical_v1 unchanged",
+    "reference": "common average across frozen-QC good scalp channels",
+    "frontocentral_roi": ["FC3", "FC1", "FCz", "FC2", "FC4"],
+    "minimum_good_roi_channels": 3,
+    "resample_factor": 4,
+    "bandpass_hz": [1.0, 45.0],
+    "narrowband_phase_filter": "target frequency plus or minus 1 Hz on the full 7-second epoch, followed by trimming to the frozen analysis window",
+    "epoch_seconds_relative_to_stimulation_onset": [-3.0, 4.0],
+    "analysis_window_seconds_relative_to_stimulation_onset": [0.25, 1.75],
+    "artifact_rules": "dryad_r2b_technical_v1 unchanged",
+    "bad_channel_interpolation": false
+  },
+  "primary_neural_estimand": {
+    "metric": "mean_itpc_in_stimulation_window",
+    "contrast": "f_theta_plus minus non_rhythmic",
+    "unit": "ITPC proportion",
+    "population": "35 frozen technical-pass validation participants",
+    "estimator": "paired participant mean difference",
+    "uncertainty": "two-sided 95% t interval with participant bootstrap sensitivity",
+    "alpha": 0.05,
+    "directional_test": false,
+    "standardized_smallest_effect_of_interest_dz": 0.3,
+    "equivalence_rule": "two one-sided tests using the 90% confidence interval within plus or minus 0.3 dz; operational measurement bound, not a clinical MCID",
+    "null_interpretation": "non-significant and non-equivalent is inconclusive, not evidence of absence"
+  },
+  "key_secondary_neural_estimands": [
+    {
+      "metric": "evoked_local_log_snr_db",
+      "contrast": "f_theta_plus minus non_rhythmic",
+      "purpose": "phase-locked spectral response"
+    },
+    {
+      "metric": "total_power_local_log_snr_db",
+      "contrast": "f_theta_plus minus non_rhythmic",
+      "purpose": "total narrow-band response"
+    },
+    {
+      "metric": "induced_local_log_snr_db",
+      "contrast": "f_theta_plus minus non_rhythmic",
+      "purpose": "non-phase-locked spectral control; interpreted jointly with evoked local SNR"
+    }
+  ],
+  "multiplicity": {
+    "primary_family": "single prespecified ITPC contrast",
+    "key_secondary_family": "Holm correction across evoked, total and induced local-SNR contrasts",
+    "behaviour_and_coupling": "separate labeled family with Holm correction within family",
+    "exploratory_prediction": "reported as estimation only, not used to rescue primary inference"
+  },
+  "internal_consistency": {
+    "splits": ["odd_even_trials_within_condition", "first_second_time_half_within_condition"],
+    "metrics": ["mean_itpc_in_stimulation_window", "evoked_local_log_snr_db"],
+    "summary": "Spearman correlation and Spearman-Brown corrected coefficient with bootstrap 95% interval",
+    "forbidden_label": "test-retest reliability"
+  },
+  "behavioural_estimands": {
+    "condition_contrasts": [
+      "accuracy: f_theta_plus minus non_rhythmic",
+      "median correct RT ms: f_theta_plus minus non_rhythmic",
+      "inverse efficiency ms: f_theta_plus minus non_rhythmic"
+    ],
+    "primary_coupling": "within-subject-condition association of leave-one-trial-out phase-alignment score with correctness and correct-trial RT",
+    "models": [
+      "binomial GEE for correctness clustered by subject with condition interaction",
+      "Gaussian GEE for log correct RT clustered by subject with condition interaction"
+    ],
+    "centering": "neural trial score centered within subject and condition",
+    "behaviour_denominator": "all event-valid trials in the two active-contrast conditions, independent of EEG artifact rejection",
+    "coupling_population": "event-valid trials that also pass the frozen EEG epoch artifact rules",
+    "causal_claim": false,
+    "mediation_claim": false
+  },
+  "prediction": {
+    "status": "secondary_exploratory",
+    "outcome": "participant theta-plus minus non-rhythmic inverse-efficiency contrast",
+    "baseline_features": ["individual_theta_hz", "baseline_rt_ms", "age_years", "gender"],
+    "incremental_features": ["primary_itpc_contrast", "evoked_snr_contrast", "internal_consistency"],
+    "validation": "nested leave-one-subject-out cross-validation with inner tuning",
+    "comparators": ["training-fold mean", "baseline-features-only model"],
+    "metrics": ["MAE", "RMSE", "Spearman correlation"],
+    "minimum_claim": "no individual-benefit claim without improvement over both comparators and uncertainty excluding no improvement"
+  },
+  "sensitivity_analyses": [
+    "Wilcoxon signed-rank sensitivity for paired condition contrasts",
+    "participant bootstrap confidence intervals",
+    "repeat primary contrast using at least four good frontocentral ROI channels",
+    "report congruent and incongruent behavioural strata without changing the neural primary estimand"
+  ],
+  "prohibited_adaptations": [
+    "change ROI or analysis window based on confirmatory effect size",
+    "change technical inclusion thresholds after outcome inspection",
+    "include five development participants in primary estimates",
+    "replace non-rhythmic active control after viewing results",
+    "select a neural metric because it is significant",
+    "describe internal consistency as test-retest reliability",
+    "claim cognitive mediation or treatment efficacy from association"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source": "data/public/dryad_t76hdr8dm/v5/metadata/Dataset.xlsx",
+  "source_sha256": "c0c4c21c7a45b775258f333215a56d585c4e5dff0d3934d0a17577cdaaa2910e",
+  "n_subjects": 44,
+  "n_condition_rows": 132,
+  "conditions": [
+    "2Hz",
+    "f_theta",
+    "f_theta_plus"
+  ],
+  "source_grain": "subject-by-condition summaries; not trials",
+  "permutations": 20000,
+  "claim_boundary": "Association and prediction gate only. Raw BDF/event reanalysis is required for trial-level, reliability, order, and causal-mechanism claims."
+}

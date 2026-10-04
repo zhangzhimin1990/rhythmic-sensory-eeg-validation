@@ -1,0 +1,5 @@
+model,condition,simple_slope_phase_alignment_within,standard_error,ci95_low,ci95_high,p_value_two_sided,n_trials,n_subjects,interpretation,p_value_holm_simple_slope_family
+correctness_binomial_gee,non_rhythmic,-0.0980678451414916,0.5554667257647365,-1.1867826276403752,0.990646937357392,0.8598615958521145,6623,35,concurrent_within_subject_condition_association_not_mediation,1.0
+correctness_binomial_gee,f_theta_plus,-0.0718912485977166,0.4117872939675653,-0.8789943447741446,0.7352118475787113,0.8614069497369328,6623,35,concurrent_within_subject_condition_association_not_mediation,1.0
+correct_rt_gaussian_gee,non_rhythmic,0.0064816209726229,0.0181994466726426,-0.0291892945057567,0.0421525364510025,0.7217328410698294,6472,35,concurrent_within_subject_condition_association_not_mediation,1.0
+correct_rt_gaussian_gee,f_theta_plus,-0.0037289730701079,0.0114197259185935,-0.0261116358705513,0.0186536897303355,0.7440174358197142,6472,35,concurrent_within_subject_condition_association_not_mediation,1.0

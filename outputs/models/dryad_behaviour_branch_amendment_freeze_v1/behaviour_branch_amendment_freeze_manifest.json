@@ -1,0 +1,32 @@
+{
+  "freeze_id": "dryad_behaviour_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "behavioural_estimators_changed": false,
+  "noninferiority_margin_added": false,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/classify_dryad_confirmatory_behaviour_branch.py",
+      "bytes": 4527,
+      "sha256": "5d1b1d13b7f708fc543f4cba2fb5cc8af63e4f40ef1cc415b7e54ebb23a37dbb"
+    },
+    {
+      "path": "scripts/freeze_dryad_behaviour_branch_amendment.py",
+      "bytes": 2808,
+      "sha256": "605a95a479324eb2ef916b79d5ac8e44e690a1073e04665d9aba204a00c30a1a"
+    },
+    {
+      "path": "tests/test_classify_dryad_confirmatory_behaviour_branch.py",
+      "bytes": 1782,
+      "sha256": "31e5d8fd58a889cb70613267282839af939b8a2d1fa306485ec55e94f0ed43fe"
+    },
+    {
+      "path": "97_Dryad确认性行为非劣效措辞结果盲修正.md",
+      "bytes": 1689,
+      "sha256": "23daed1fa8531116fb7e04cf6dd8622bc2108122d6c6d79287a934f7099708d0"
+    }
+  ],
+  "manifest_sha256": "58161638c73358801ed2f68e330a067279916037a22e40dba67fc92798972356"
+}

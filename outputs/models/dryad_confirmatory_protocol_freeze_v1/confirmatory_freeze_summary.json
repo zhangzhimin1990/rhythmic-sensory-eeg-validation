@@ -1,0 +1,10 @@
+{
+  "protocol_id": "dryad_theta_plus_confirmatory_v1",
+  "status": "frozen_before_confirmatory_signal_reaccess",
+  "n_frozen_assets": 18,
+  "n_confirmatory_subjects": 35,
+  "primary_metric": "mean_itpc_in_stimulation_window",
+  "active_contrast": "f_theta_plus_minus_non_rhythmic",
+  "manifest_sha256": "ba3d76e2dfbc5c64daf74278898da338590f9029c99947bbccc6065f403d3dea",
+  "outcomes_accessed_during_freeze": false
+}

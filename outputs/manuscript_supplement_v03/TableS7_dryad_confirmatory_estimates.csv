@@ -1,0 +1,14 @@
+family,endpoint,comparison,n_subjects,n_trials,estimate,ci95_low,ci95_high,standardized_estimate,p_value_raw,p_value_adjusted,multiplicity
+primary_neural,mean_itpc_in_stimulation_window,theta_plus_minus_non_rhythmic,35,,0.0876443700466359,0.051381562388333,0.1239071777049388,0.8302416836992051,2.234570247183696e-05,,single primary
+key_secondary_neural,evoked_local_log_snr_db,theta_plus_minus_non_rhythmic,35,,7.51772837750644,4.521919475541573,10.513537279471308,0.8620142792152988,1.2753078022001425e-05,3.825923406600427e-05,Holm across 3 neural secondary endpoints
+key_secondary_neural,total_power_local_log_snr_db,theta_plus_minus_non_rhythmic,35,,0.3061756660252069,-0.096962760293959,0.709314092344373,0.2608905880929987,0.1319792827223086,0.2639585654446172,Holm across 3 neural secondary endpoints
+key_secondary_neural,induced_local_log_snr_db,theta_plus_minus_non_rhythmic,35,,-0.0967189553052746,-0.3930000983347234,0.199562187724174,-0.1121371520563093,0.5115399145886786,0.5115399145886786,Holm across 3 neural secondary endpoints
+behaviour,accuracy,theta_plus_minus_non_rhythmic,35,,-0.0059680451127819,-0.0135518228199892,0.0016157325944253,-0.2703263866335457,0.1190129151048205,0.1190129151048205,Holm across 3 behavioural endpoints
+behaviour,median_correct_rt_ms,theta_plus_minus_non_rhythmic,35,,-27.727399553571427,-36.17059471903275,-19.284204388110098,-1.128091298186799,1.163918834351581e-07,3.491756503054743e-07,Holm across 3 behavioural endpoints
+behaviour,inverse_efficiency_ms,theta_plus_minus_non_rhythmic,35,,-25.85613522516293,-35.45482809730589,-16.257442353019968,-0.925323200389017,4.155881893512739e-06,8.311763787025479e-06,Holm across 3 behavioural endpoints
+within_condition_coupling,correctness_binomial_gee,non_rhythmic,35,6623,-0.0980678451414916,-1.1867826276403752,0.990646937357392,,0.8598615958521145,1.0,Holm across 4 simple slopes
+within_condition_coupling,correctness_binomial_gee,f_theta_plus,35,6623,-0.0718912485977166,-0.8789943447741446,0.7352118475787113,,0.8614069497369328,1.0,Holm across 4 simple slopes
+within_condition_coupling,correct_rt_gaussian_gee,non_rhythmic,35,6472,0.0064816209726229,-0.0291892945057567,0.0421525364510025,,0.7217328410698294,1.0,Holm across 4 simple slopes
+within_condition_coupling,correct_rt_gaussian_gee,f_theta_plus,35,6472,-0.0037289730701079,-0.0261116358705513,0.0186536897303355,,0.7440174358197142,1.0,Holm across 4 simple slopes
+incremental_prediction,MAE improvement,training_fold_mean,35,,3.873987306953702,-0.4314135727724284,8.032446574602211,,,,estimation-only participant bootstrap
+incremental_prediction,MAE improvement,baseline,35,,-1.0239109004309046,-3.2073171833808867,1.013393781778842,,,,estimation-only participant bootstrap

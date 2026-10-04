@@ -1,0 +1,27 @@
+{
+  "manuscript": "107_Alzheimers_Dementia\u82f1\u6587\u5168\u6587_v0.1.md",
+  "sha256": "c3dfd856d6a3ca219f0a49aa88d44ac6c349ae5fa158051539f55d88ecc730a4",
+  "title_characters": 68,
+  "section_word_counts": {
+    "abstract": 248,
+    "research_in_context": 119,
+    "introduction": 548,
+    "methods": 3597,
+    "results": 4119,
+    "discussion": 1094
+  },
+  "unique_citations": 22,
+  "main_display_items": {
+    "figures": 7,
+    "tables": 1,
+    "total": 8
+  },
+  "source_files": {
+    "106_Alzheimers_Dementia\u6295\u7a3f\u9002\u914d\u5305_v1.md": "f56c8f3e871000507c01693791f160ddc7f90df83b218f8cf3d966e008f542d5",
+    "104_\u82f1\u6587\u5168\u6587\u6574\u5408\u7a3f_v0.5.md": "2e112687b7a3cbd0f6d0782c9c74eb0cca4af38447aed38474259a6deeddf531",
+    "manuscript_ad/introduction_v1.md": "0437131e703710214f5737b3e04cba3825c02919096083f99764bf6b79b45002",
+    "manuscript_ad/discussion_v1.md": "1e470bf163e7f0e719df18e9e3402630778dbb56f3ac0099f3186efb64ec3e42",
+    "83_\u6b63\u6587Figure2-7\u82f1\u6587\u56fe\u6ce8_v0.1.md": "3e4f642d12bb0e54d673a654657aa1fc2a41cafc99c8874d90074b920a4e705f",
+    "82_\u6b63\u6587Figure1\u4e0eTable2\u82f1\u6587\u56fe\u8868\u6ce8_v0.1.md": "16422477b9a869c6b2bf4df5c2514488824f802d32d3cae87a3542d406ed8a48"
+  }
+}

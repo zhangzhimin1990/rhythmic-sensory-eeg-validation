@@ -1,0 +1,19 @@
+{
+  "status": "confirmatory_claim_release_decided",
+  "claim_ceiling": "target_engagement_and_behaviour_without_specific_coupling",
+  "abstract_core_sentence": "The active-control contrast supported target engagement and an acute task-performance advantage, but did not establish condition-specific neural-behaviour coupling.",
+  "supporting_modifiers": [
+    "no consistent internal out-of-sample prediction increment was established"
+  ],
+  "endpoint_branches": {
+    "primary": "theta_plus_higher",
+    "behaviour": "inverse_efficiency_advantage_no_detected_accuracy_decrement",
+    "coupling": "no_favourable_theta_plus_coupling",
+    "prediction": "no_consistent_prediction_increment"
+  },
+  "causal_mechanism_claim_unlocked": false,
+  "chronic_cognitive_efficacy_claim_unlocked": false,
+  "clinical_treatment_selection_claim_unlocked": false,
+  "patient_generalisation_claim_unlocked": false,
+  "prediction_cannot_raise_causal_claim_ceiling": true
+}

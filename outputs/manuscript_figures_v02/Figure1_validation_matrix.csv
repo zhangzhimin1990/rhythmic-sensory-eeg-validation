@@ -1,0 +1,29 @@
+dataset,transition,role_code,role
+ds004504 resting,T1  Response → mechanism,1,Context
+ds004504 resting,T2  Reliability → cognitive validity,0,—
+ds004504 resting,T3  Mean effect → within-person coupling,0,—
+ds004504 resting,T4  Association → held-out prediction,0,—
+ds006036 visual,T1  Response → mechanism,2,Direct
+ds006036 visual,T2  Reliability → cognitive validity,1,Context
+ds006036 visual,T3  Mean effect → within-person coupling,0,—
+ds006036 visual,T4  Association → held-out prediction,0,—
+ds005048 auditory,T1  Response → mechanism,0,—
+ds005048 auditory,T2  Reliability → cognitive validity,2,Direct
+ds005048 auditory,T3  Mean effect → within-person coupling,0,—
+ds005048 auditory,T4  Association → held-out prediction,0,—
+ds006222 audiovisual,T1  Response → mechanism,1,Context
+ds006222 audiovisual,T2  Reliability → cognitive validity,0,—
+ds006222 audiovisual,T3  Mean effect → within-person coupling,0,—
+ds006222 audiovisual,T4  Association → held-out prediction,0,—
+ds007648 36/40 Hz,T1  Response → mechanism,0,—
+ds007648 36/40 Hz,T2  Reliability → cognitive validity,2,Direct
+ds007648 36/40 Hz,T3  Mean effect → within-person coupling,0,—
+ds007648 36/40 Hz,T4  Association → held-out prediction,2,Direct
+ds006780 27/40 Hz,T1  Response → mechanism,0,—
+ds006780 27/40 Hz,T2  Reliability → cognitive validity,2,Direct
+ds006780 27/40 Hz,T3  Mean effect → within-person coupling,0,—
+ds006780 27/40 Hz,T4  Association → held-out prediction,2,Direct
+Dryad theta,T1  Response → mechanism,0,—
+Dryad theta,T2  Reliability → cognitive validity,0,—
+Dryad theta,T3  Mean effect → within-person coupling,2,Direct
+Dryad theta,T4  Association → held-out prediction,2,Direct

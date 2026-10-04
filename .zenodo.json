@@ -1,0 +1,35 @@
+{
+  "title": "Rhythmic sensory EEG cognitive validity analysis",
+  "upload_type": "software",
+  "description": "Reproducible analysis code, audited derived outputs, figures, and claim-boundary checks for a seven-cohort secondary analysis of human EEG responses to rhythmic visual, auditory, and audiovisual stimulation. The package tests transitions from frequency-following target engagement to reliability, cognitive validity, acute behavioral benefit, neural-behavioral coupling, and held-out prediction. Source EEG recordings are not redistributed.",
+  "creators": [
+    {
+      "name": "Zhang, Zhimin",
+      "affiliation": "School of Artificial Intelligence, China Pharmaceutical University",
+      "orcid": "0000-0002-0531-9112"
+    },
+    {
+      "name": "Yang, Hui",
+      "affiliation": "Department of Neurology, The Second Hospital of Shandong University"
+    },
+    {
+      "name": "Li, Yuwen",
+      "affiliation": "School of Instrument Science and Engineering, Southeast University",
+      "orcid": "0000-0003-3060-836X"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "electroencephalography",
+    "rhythmic sensory stimulation",
+    "auditory stimulation",
+    "visual stimulation",
+    "target engagement",
+    "cognitive validity",
+    "reliability",
+    "prediction",
+    "Alzheimer's disease",
+    "reproducible research"
+  ]
+}

@@ -1,0 +1,3 @@
+model,term,estimate,standard_error_cluster,ci95_low,ci95_high,p_value,n_observations,n_subjects,label,color
+continuous_post_rt_ms,entrainment_between_z,-12.248876873682525,4.038060289874382,-20.163329609237685,-4.334424138127365,0.002418496156372,132,44,Between-person mean,#7A52A1
+continuous_post_rt_ms,entrainment_within_z,-0.9030982014436476,1.1128646298971945,-3.084272795710645,1.2780763928233498,0.417074180425957,132,44,Within-person condition deviation,#2B6CB0

@@ -1,0 +1,9 @@
+{
+  "equivalence_rows": 10,
+  "correlation_rows": 3,
+  "prediction_rows": 7,
+  "claim_strength_rows": 15,
+  "alpha": 0.05,
+  "equivalence_ci": "90% normal approximation, equivalent to TOST alpha=.05",
+  "boundary_policy": "sensitivity grids only; none are claimed as clinical MCIDs"
+}

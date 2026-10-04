@@ -1,0 +1,46 @@
+{
+  "manuscript": "104_\u82f1\u6587\u5168\u6587\u6574\u5408\u7a3f_v0.5.md",
+  "sha256": "2e112687b7a3cbd0f6d0782c9c74eb0cca4af38447aed38474259a6deeddf531",
+  "body_word_count_including_abstract": 10837,
+  "citation_keys": [
+    "L001_Duecker2024",
+    "L003_Chan2022",
+    "L007_Duecker2021",
+    "L013_Ang2025",
+    "L014_Lahijanian2024",
+    "L016_vanDeursen2011",
+    "L017_Murty2021",
+    "L020_L027_Hajos2024",
+    "L024_VelezPardo2026",
+    "L026_Agger2023",
+    "L031_Yoon2025",
+    "L032_Hirano2020",
+    "L035_Da2024",
+    "L036_HOPE",
+    "L037_Brickwedde2025",
+    "L038_Darrell2026",
+    "L039_GomezLombardi2026",
+    "L040_Park2026",
+    "L041_Breska2017",
+    "L042_GammaAuditoryTrial",
+    "L043_Qi2026",
+    "L044_Attokaren2026"
+  ],
+  "citation_count_unique": 22,
+  "main_figures": 7,
+  "main_tables": 2,
+  "supplementary_figures": 6,
+  "supplementary_tables_added_here": [
+    "S6",
+    "S7"
+  ],
+  "source_files": {
+    "81_\u82f1\u6587\u6807\u9898\u6458\u8981\u4e0e\u6838\u5fc3\u8d21\u732e_v0.3.md": "5d19095aad5ec8aa21d442759c3eb40d1cb8eb81acd2ffb66573fe4eb4a08514",
+    "27_\u82f1\u6587\u5f15\u8a00\u4e0e\u65b9\u6cd5\u521d\u7a3f_v0.2.md": "e941eac4638c95885487c35ed5a1e06e7d53d6574bf55e0ba6bc4f43513148e0",
+    "28_\u82f1\u6587\u7ed3\u679c\u4e0e\u8ba8\u8bba\u521d\u7a3f_v0.2.md": "6cc590b456bdadb43cbe63d93e4259ceb4654695f28941dfe6caeca1d7919502",
+    "82_\u6b63\u6587Figure1\u4e0eTable2\u82f1\u6587\u56fe\u8868\u6ce8_v0.1.md": "16422477b9a869c6b2bf4df5c2514488824f802d32d3cae87a3542d406ed8a48",
+    "83_\u6b63\u6587Figure2-7\u82f1\u6587\u56fe\u6ce8_v0.1.md": "3e4f642d12bb0e54d673a654657aa1fc2a41cafc99c8874d90074b920a4e705f",
+    "36_\u8865\u5145\u56feS1-S4\u56fe\u6ce8\u53ca\u8bc1\u636e\u8bf4\u660e.md": "240810813f8bedaed9e2852f677737c4f689bac7a82ec21d04f70141c85b360b",
+    "references/manuscript_references_v02.bib": "c979da8600206494e4b7ba4821f38c8c2b65e27ea2a17d5f5795aaaf0915855a"
+  }
+}

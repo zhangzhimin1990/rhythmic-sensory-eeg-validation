@@ -1,0 +1,16 @@
+{
+  "runs_with_events": 128,
+  "subjects": 123,
+  "dprime_correlations": {
+    "0.75": {
+      "spearman_with_1.0s": 0.9754999506568326,
+      "p_value": 1.6474101610467707e-73,
+      "n": 111
+    },
+    "1.25": {
+      "spearman_with_1.0s": 0.9918205976665894,
+      "p_value": 2.742807991672282e-99,
+      "n": 111
+    }
+  }
+}

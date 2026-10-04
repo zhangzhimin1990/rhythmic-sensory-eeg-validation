@@ -1,0 +1,8 @@
+Dataset,Released,Signal/structural gate,Primary estimation,Outcome-specific N / boundary
+ds004504,88,88 usable,N=88,MMSE N=88
+ds006036,88,88 records; 372 reconstructable blocks,N=76–80 by primary visual endpoint,MMSE/group N varies by estimand
+ds005048,35,35 usable,40-Hz N=35,MMSE N=33
+ds006222,69 participants / 70 records,6/6 sampled signal gate,Full-cohort signal not modeled,Behavior unavailable
+ds007648,22,20 neural usable,"8,579 accuracy trials","7,456 correct RT trials"
+ds006780,123 ASSR,111 technical,d-prime N=111,FSIQ N=109
+Dryad theta,44,44 complete released table,132 rhythmic condition rows,R2: 3/5 technical; R2b pending

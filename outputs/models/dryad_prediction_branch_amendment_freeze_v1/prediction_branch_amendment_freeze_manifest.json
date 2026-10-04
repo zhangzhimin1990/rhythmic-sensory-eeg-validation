@@ -1,0 +1,32 @@
+{
+  "freeze_id": "dryad_prediction_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "prediction_estimators_changed": false,
+  "bootstrap_retraining_added": false,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/classify_dryad_confirmatory_prediction_branch.py",
+      "bytes": 4129,
+      "sha256": "bbe07ac64f232fb9e9a649571fd7e2ae2e91615a2db16986443ed7e6755fb3af"
+    },
+    {
+      "path": "scripts/freeze_dryad_prediction_branch_amendment.py",
+      "bytes": 2801,
+      "sha256": "c0ee4dfdd1de56a704d102d5808b9244ed5bbb98f877d17f52c4e6e4437429bd"
+    },
+    {
+      "path": "tests/test_classify_dryad_confirmatory_prediction_branch.py",
+      "bytes": 1606,
+      "sha256": "ef1702f897be12505c06373b389480f0c38bade2b178a540c0ff03a5ebf91158"
+    },
+    {
+      "path": "99_Dryad确认性预测验证层级结果盲修正.md",
+      "bytes": 1646,
+      "sha256": "3a0c03d1e76320a5fecee7631daf181a825f6070381133624b4126dfa19ffdc3"
+    }
+  ],
+  "manifest_sha256": "b2750e6ca81f1d4aad75ae6f518594f1bc97c2fc1ea10e975f13d69185c964c1"
+}

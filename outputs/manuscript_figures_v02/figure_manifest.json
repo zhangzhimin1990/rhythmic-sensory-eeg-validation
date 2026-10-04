@@ -1,0 +1,39 @@
+{
+  "figures": [
+    "outputs/manuscript_figures_v02/Figure5_behavioral_validity.png",
+    "outputs/manuscript_figures_v02/Figure5_behavioral_validity.pdf",
+    "outputs/manuscript_figures_v02/Figure6_transportability_prediction.png",
+    "outputs/manuscript_figures_v02/Figure6_transportability_prediction.pdf"
+  ],
+  "sources": [
+    {
+      "path": "outputs/models/ds007648_behavioral_validity/clustered_models.csv",
+      "sha256": "680aab7a67744fccdd95e904adeb939f1c9861daa4b935889812f4e80c51efb4"
+    },
+    {
+      "path": "outputs/models/ds007648_behavioral_validity/split_half_reliability.csv",
+      "sha256": "1d0a856260746e2c39e3c786fbcec520c095791db0ac7bc3e1db44d1f10935d4"
+    },
+    {
+      "path": "outputs/models/ds006780_behavioral_validity/primary_tests.csv",
+      "sha256": "4cc6025228daefc75d6e7473d9e7b2a70e889d22f89f4cd482af1db78b2560e5"
+    },
+    {
+      "path": "outputs/models/ds006780_behavioral_validity/sensitivity_tests.csv",
+      "sha256": "b413e1d0666d2d5038c7e19fe9ee8203f608168ac8b45f0488a41fad289e583b"
+    },
+    {
+      "path": "outputs/models/ds006780_behavioral_validity/fsiq_audit/robustness_models.csv",
+      "sha256": "6ea0991990eff1cf46b0ed62d5680ee5c782ae091fafc7b8cf8aa77e0f7a24ba"
+    },
+    {
+      "path": "outputs/models/validation_strength/prediction_increment_precision.csv",
+      "sha256": "f944a6956d7a7347d4284719f3cbd05e48e3fbe0de02d636439b6e460ede90f2"
+    }
+  ],
+  "notes": [
+    "All intervals are 95% confidence intervals unless stated otherwise.",
+    "Cross-dataset raw EEG amplitudes are not pooled.",
+    "Validation matrix states are claim-level summaries, not effect sizes."
+  ]
+}

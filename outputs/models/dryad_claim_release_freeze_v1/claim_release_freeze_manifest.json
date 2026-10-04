@@ -1,0 +1,31 @@
+{
+  "freeze_id": "dryad_claim_release_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "endpoint_estimators_changed": false,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/assemble_dryad_confirmatory_claim_release.py",
+      "bytes": 5414,
+      "sha256": "bd42b1bfd6b72ba82fb4f12496fc09cc852eaf553903403f12710783219d8ed5"
+    },
+    {
+      "path": "scripts/freeze_dryad_claim_release.py",
+      "bytes": 2637,
+      "sha256": "13117772883e488158602f636469ca5b69d7e9710f74d6c332d9113f5b3a64f9"
+    },
+    {
+      "path": "tests/test_assemble_dryad_confirmatory_claim_release.py",
+      "bytes": 2110,
+      "sha256": "c26fb10ee7c8039e4683e25003dde3bd9a31a1845d29c06a4c3a7c53f2407d78"
+    },
+    {
+      "path": "100_Dryad确认性统一主张释放规则.md",
+      "bytes": 1967,
+      "sha256": "70eb137609643b770732b8469c209817d0af0762ded1a5a182f3ce521aa2e091"
+    }
+  ],
+  "manifest_sha256": "4c18f3bca916e4b6de721ed5e1e56991fb9b4e0ff89c4e86c6af3b0417582450"
+}

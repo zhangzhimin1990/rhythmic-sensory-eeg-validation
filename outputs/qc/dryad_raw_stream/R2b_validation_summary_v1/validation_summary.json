@@ -1,0 +1,20 @@
+{
+  "n_validation_participants": 39,
+  "n_technical_pass": 35,
+  "n_technical_fail": 4,
+  "technical_pass_fraction": 0.8974358974358975,
+  "technical_pass_fraction_wilson_95_ci": [
+    0.7642114553714348,
+    0.9593866865533163
+  ],
+  "required_technical_pass": 32,
+  "technical_go": true,
+  "failed_subjects": [
+    1,
+    15,
+    25,
+    41
+  ],
+  "result_bearing_fields_emitted": false,
+  "status": "frozen_protocol_technical_validation_complete"
+}

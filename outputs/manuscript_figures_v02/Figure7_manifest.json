@@ -1,0 +1,16 @@
+{
+  "figure": "Figure7_personalized_theta_validation",
+  "inputs": {
+    "outputs/models/dryad_theta_validation_gate/paired_condition_effects.csv": "6a922d1332c560a53c05e31cf2373b96ba6c7055acfb5e648041302087de86aa",
+    "outputs/models/dryad_theta_validation_gate/association_models.csv": "353b8689c1cb1b4783c12ff91e168296b90d00c83390ae5a3d1fabcbbec4a1dd",
+    "outputs/models/dryad_theta_validation_gate/moderator_checks.csv": "aedd45e0825c4696316b3342f7ace54b0744227f41ef6e8939e93a27dc6bfc30",
+    "outputs/models/dryad_theta_validation_gate/pretreatment_subject_predictions.csv": "8583525358ce8bf5375c9c329f5cb60f3be991cb02112203df38b49c88dc7646",
+    "outputs/models/dryad_theta_validation_gate/pretreatment_prediction_summary.csv": "2c37b161abad9cce4c09f953483cdae33ec21c6692ac8b421e4f159185d7376b"
+  },
+  "panels": {
+    "A": "paired active-control RT and inverse-efficiency effects",
+    "B": "between-person versus within-person entrainment association",
+    "C": "baseline moderation across three comparator definitions",
+    "D": "nested leave-one-subject-out pretreatment prediction"
+  }
+}

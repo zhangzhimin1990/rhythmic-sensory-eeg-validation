@@ -1,0 +1,41 @@
+{
+  "source_bdf": "S27_Stim.bdf",
+  "individual_theta_hz": 3.15,
+  "n_scalp_channels": 64,
+  "n_bad_channels": 24,
+  "bad_channels": [
+    "Fp1",
+    "FC1",
+    "CP1",
+    "P1",
+    "P3",
+    "P9",
+    "PO7",
+    "PO3",
+    "O1",
+    "Iz",
+    "Oz",
+    "POz",
+    "Pz",
+    "CPz",
+    "C2",
+    "CP4",
+    "CP2",
+    "P2",
+    "P4",
+    "P8",
+    "P10",
+    "PO8",
+    "PO4",
+    "O2"
+  ],
+  "n_good_channels": 40,
+  "n_trials": 384,
+  "n_usable_trials": 384,
+  "trial_rejection_fraction": 0.0,
+  "analysis_window_seconds_after_stimulation_onset": [
+    0.25,
+    1.75
+  ],
+  "preprocessing_identity": "automated R1 pilot; not an exact reproduction of manual EEGLAB/ICA cleaning"
+}

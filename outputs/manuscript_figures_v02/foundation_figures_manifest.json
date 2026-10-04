@@ -1,0 +1,89 @@
+{
+  "script": "scripts/build_foundation_figures_v02.py",
+  "figure_files": [
+    {
+      "path": "outputs/manuscript_figures_v02/Figure1_multicohort_validation_design.png",
+      "sha256": "0e7a6b33d9fca7e04e369e3a9102e099174a0e01e928042fcb0b281af6e009da"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure1_multicohort_validation_design.pdf",
+      "sha256": "7acd296c5063cfb38ed1a7d98e1b346b06058d82fab922538ad9fe02f49f65fd"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure2_outcome_specific_sample_flow.png",
+      "sha256": "1cf4b3960681ba3563c3e1ee62acbf465dadedecbff42bde6a97cbf2c2c9a8d6"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure2_outcome_specific_sample_flow.pdf",
+      "sha256": "1fddcb58380afc17e85245ba8211a99d6c3ccba3cc41e937fb4d935def91ce93"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure3_detectability_reliability_sensitivity.png",
+      "sha256": "4b21e7c47a6c86a9b7eef277d91a9d00e5440fb1dc6653600bb78366af52be29"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure3_detectability_reliability_sensitivity.pdf",
+      "sha256": "5da1732054b382a4cfd2a702e7b26bb2cab02d27f84ebf8a86c6af325dd8fd08"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure4_clinical_validity_boundary.png",
+      "sha256": "a2f375879f2951db39e4c2a35de20e4316594bb89b0adf4866ed21d1a0430fbc"
+    },
+    {
+      "path": "outputs/manuscript_figures_v02/Figure4_clinical_validity_boundary.pdf",
+      "sha256": "d5ca023121fe2ba01df9b78daca3a352139e847c5d08f1ac3b564bedd7b4776d"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "outputs/manuscript_tables_v02/Table1_public_cohorts.csv",
+      "sha256": "725d68488bb475b639d0683cc5f6830e2cd06b2d241412be09b39b5102589459"
+    },
+    {
+      "path": "outputs/manuscript_tables_v02/Table2_inferential_transitions.csv",
+      "sha256": "bdc1328599d21759fcf8a965b9dc3482c9bd5cd7b26b08b4163a76de5544c04a"
+    },
+    {
+      "path": "outputs/manuscript_tables_v02/Table2_validation_claims.csv",
+      "sha256": "5cd453c7d836c903e27c470bb34f527912d03c8c0e33f73c042235ead2a71e95"
+    },
+    {
+      "path": "outputs/innovation/claim_transition_falsification_matrix.csv",
+      "sha256": "6ee528f80ba1fce517a6d3243fc791bc7ea90fbd093e180952726e202a2884aa"
+    },
+    {
+      "path": "outputs/qc/ds004504_full_foundation/resting_features.csv",
+      "sha256": "b325ff21c2783abcfdcf9fd127ac8a3b63e8cdd42b1415b87a0edd62ec3e02e6"
+    },
+    {
+      "path": "outputs/competition/ds006036_exact_preprint/features_ica.csv",
+      "sha256": "07e9e14bbbc43d60db8de9bccdec04685f8c84c6b1a3f129388e783cbc40acac"
+    },
+    {
+      "path": "outputs/competition/ds006036_competitor_models/selectivity_models.csv",
+      "sha256": "29fc6bbe20d0d69ea410ea052828a2d2909c43bab51ad8667f78481e36bdc08f"
+    },
+    {
+      "path": "outputs/models/validation_strength/correlation_precision.csv",
+      "sha256": "43c2c2cf647c62da4fb37599d80cd8f6c50105a207dbbdff1573b9c5c42688d1"
+    },
+    {
+      "path": "outputs/models/ds007648_behavioral_validity/split_half_reliability.csv",
+      "sha256": "1d0a856260746e2c39e3c786fbcec520c095791db0ac7bc3e1db44d1f10935d4"
+    },
+    {
+      "path": "outputs/models/ds006780_behavioral_validity/split_half_reliability.csv",
+      "sha256": "baf3a82b3c6099f986f3bcf6bf2438034f797b50c84ea2cc7eca786a8437777c"
+    },
+    {
+      "path": "outputs/models/ds006780_behavioral_validity/replication_models.csv",
+      "sha256": "819ed6d7f5fb5c18fee6c4e07207082af635c01407233af86541f66568237182"
+    }
+  ],
+  "notes": [
+    "Figure 1 matrix cells encode cohort roles in four claim-transition tests, not effect direction, evidence strength, or meta-analytic effect sizes.",
+    "Figure 2 counts are outcome specific and are not additive across columns.",
+    "Figure 3 reliability values are point estimates because common-basis intervals were unavailable.",
+    "Figure 4 uses separate axes for incomparable effect scales."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "freeze_id": "dryad_freeze_chain_verifier_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-30",
+  "n_assets": 4,
+  "contains_condition_effects": false,
+  "manifest_sha256": "0ffcd0b5b93d70d46a56cc2376ea4f68e5de91bed015ca86b13e2124807941a4"
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software archive and the associated article."
+title: "Rhythmic sensory EEG cognitive validity analysis"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Zhimin
+    orcid: "https://orcid.org/0000-0002-0531-9112"
+  - family-names: Yang
+    given-names: Hui
+  - family-names: Li
+    given-names: Yuwen
+    orcid: "https://orcid.org/0000-0003-3060-836X"
+version: 1.0.0
+date-released: 2026-10-04
+license: MIT
+preferred-citation:
+  type: article
+  title: "Testing cognitive validity of rhythmic-sensory EEG target engagement"
+  authors:
+    - family-names: Zhang
+      given-names: Zhimin
+      orcid: "https://orcid.org/0000-0002-0531-9112"
+    - family-names: Yang
+      given-names: Hui
+    - family-names: Li
+      given-names: Yuwen
+      orcid: "https://orcid.org/0000-0003-3060-836X"
+  journal: "Alzheimer's & Dementia"

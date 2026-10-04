@@ -1,0 +1,25 @@
+dataset,stage,state
+ds006036 visual,Detectable,Supported
+ds006036 visual,Reliable,Limited
+ds006036 visual,Sensitive,Supported
+ds006036 visual,Concurrent valid,Limited
+ds006036 visual,Predictive,No increment
+ds006036 visual,Causal/clinical,Not tested
+ds005048 auditory,Detectable,Supported
+ds005048 auditory,Reliable,Supported
+ds005048 auditory,Sensitive,Supported
+ds005048 auditory,Concurrent valid,Limited
+ds005048 auditory,Predictive,No increment
+ds005048 auditory,Causal/clinical,Not tested
+ds007648 audiovisual,Detectable,Supported
+ds007648 audiovisual,Reliable,Supported
+ds007648 audiovisual,Sensitive,Conditional
+ds007648 audiovisual,Concurrent valid,Conditional
+ds007648 audiovisual,Predictive,No increment
+ds007648 audiovisual,Causal/clinical,Not tested
+ds006780 ASSR,Detectable,Supported
+ds006780 ASSR,Reliable,Supported
+ds006780 ASSR,Sensitive,Supported
+ds006780 ASSR,Concurrent valid,Limited
+ds006780 ASSR,Predictive,No increment
+ds006780 ASSR,Causal/clinical,Not tested

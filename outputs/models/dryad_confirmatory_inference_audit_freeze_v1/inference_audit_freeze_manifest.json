@@ -1,0 +1,56 @@
+{
+  "freeze_id": "dryad_confirmatory_inference_audit_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-27",
+  "n_assets": 9,
+  "participant_level_derivation_changed": false,
+  "primary_estimator_changed": false,
+  "files": [
+    {
+      "path": "configs/dryad_confirmatory_protocol_v1.json",
+      "bytes": 6014,
+      "sha256": "e6cfdd707f14a9d363fe17c55f03ed34f5b17d605ba2d37a43d6e1c41f4dddcd"
+    },
+    {
+      "path": "86_Dryad确认性神经行为分析冻结方案.md",
+      "bytes": 6097,
+      "sha256": "02717731e559677e3c9d727c0e8f794baf949440f60946af8f8e2657c33d9aed"
+    },
+    {
+      "path": "87_Dryad确认性冻结与结果前偏离审计.md",
+      "bytes": 4994,
+      "sha256": "1c753512fa433db040cb1e095f5b6850d6d6dc295a0aec175ed8710358ca3834"
+    },
+    {
+      "path": "88_Dryad确认性结果判定与推断完整性锁定.md",
+      "bytes": 5399,
+      "sha256": "67ead6939355e1c3f003316490845ef31fbb04243a1fe3bb07ca0d7200443642"
+    },
+    {
+      "path": "scripts/analyze_dryad_confirmatory_group.py",
+      "bytes": 16671,
+      "sha256": "343a3feeeeb0f77ec8f1b7ea90dead858964891b48039d7d7fa85f8f497d4347"
+    },
+    {
+      "path": "scripts/audit_dryad_confirmatory_group_inference.py",
+      "bytes": 15467,
+      "sha256": "43af5c678667af2a1953436dba5109506ac2bc7dbf01f24f0fa376242b88adaf"
+    },
+    {
+      "path": "scripts/freeze_dryad_confirmatory_inference_audit.py",
+      "bytes": 3126,
+      "sha256": "cfe1cb47abb817c4f01d0fdb7fe53eb2a24ae762880202512575801c7f7a90c7"
+    },
+    {
+      "path": "tests/test_analyze_dryad_confirmatory_group.py",
+      "bytes": 2458,
+      "sha256": "dcbc8eb2e743304d0a13315dd09aec7b77a2b56c246467fef16cbc4fb0e53bcf"
+    },
+    {
+      "path": "tests/test_audit_dryad_confirmatory_group_inference.py",
+      "bytes": 4451,
+      "sha256": "4ce499c3c5a620bbbe3bfa3a7c14cef2435d7dcf205615305ab6dac1a9812e8e"
+    }
+  ],
+  "manifest_sha256": "cc4b54d40d48cce5a1c84c4d676d432e08b923324112445934cb370fc3b08602"
+}

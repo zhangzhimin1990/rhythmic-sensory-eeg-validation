@@ -1,0 +1,6 @@
+measure,n,reliability,definition
+ds005048 auditory 40 Hz,35,0.838,block split-half
+ds007648 visual 36 Hz,20,0.8700085,odd/even; SB corrected
+ds007648 auditory 40 Hz,20,0.9847328,odd/even; SB corrected
+ds006780 auditory 27 Hz,111,0.9514894,odd/even; SB corrected
+ds006780 auditory 40 Hz,111,0.9724817,odd/even; SB corrected

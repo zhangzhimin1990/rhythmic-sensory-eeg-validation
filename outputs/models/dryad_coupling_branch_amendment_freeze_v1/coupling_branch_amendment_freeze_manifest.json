@@ -1,0 +1,32 @@
+{
+  "freeze_id": "dryad_coupling_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "gee_estimators_changed": false,
+  "multiplicity_family_changed": false,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/classify_dryad_confirmatory_coupling_branch.py",
+      "bytes": 6299,
+      "sha256": "a1f5c0a064d57d5ce38a8a4a91c9539a5a2fc0c9a5906161872891b41848444e"
+    },
+    {
+      "path": "scripts/freeze_dryad_coupling_branch_amendment.py",
+      "bytes": 2777,
+      "sha256": "14d47be750ea01b48a6ad5af4bd1996e23de945a98ad8af9cff785d7e3eb43ce"
+    },
+    {
+      "path": "tests/test_classify_dryad_confirmatory_coupling_branch.py",
+      "bytes": 2590,
+      "sha256": "be6b840f90a5efc75b4ae5a6f380ddf400fb951819248646907fcc5288824777"
+    },
+    {
+      "path": "98_Dryad确认性耦合条件特异性结果盲修正.md",
+      "bytes": 1739,
+      "sha256": "1e89c33fba67e06c94996e4783f372656a8c3ee7c2f77fa996b66e9c3eb97844"
+    }
+  ],
+  "manifest_sha256": "2115af1641110d22849673346bdc81e8b977faebedd5b1501fa2eef32f021044"
+}

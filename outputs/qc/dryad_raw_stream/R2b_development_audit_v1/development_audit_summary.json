@@ -1,0 +1,39 @@
+{
+  "development_subjects": [
+    2,
+    13,
+    23,
+    27,
+    37
+  ],
+  "n_development_subjects": 5,
+  "n_technical_pass_candidate": 5,
+  "candidate_bad_channel_range": [
+    0,
+    8
+  ],
+  "event_coverage_fraction_range": [
+    0.9869791666666666,
+    1.0
+  ],
+  "overall_epoch_usable_fraction_range": [
+    0.9736147757255936,
+    0.9973958333333334
+  ],
+  "all_threshold_grid_channel_count_gates_pass": true,
+  "threshold_grid": {
+    "robust_z_limits": [
+      4.0,
+      5.0,
+      6.0
+    ],
+    "neighbour_correlation_floors": [
+      0.0,
+      0.1,
+      0.2,
+      0.3
+    ]
+  },
+  "result_bearing_fields_emitted": false,
+  "status": "development_audit_complete_freeze_decision_pending"
+}

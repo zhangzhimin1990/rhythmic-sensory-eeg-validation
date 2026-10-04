@@ -1,0 +1,5 @@
+subject,failed_technical_gates
+1,overall_epoch_usability_gate
+15,channel_count_and_quality_gate
+25,minimum_event_cell_usability_gate
+41,overall_epoch_usability_gate;minimum_event_cell_usability_gate

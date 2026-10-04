@@ -1,0 +1,51 @@
+{
+  "algorithm_version": "result_blind_empirical_rank_greedy_maximin_v1",
+  "metadata_sha256": "c0c4c21c7a45b775258f333215a56d585c4e5dff0d3934d0a17577cdaaa2910e",
+  "members_csv_sha256": "4526ee88fb7a1ac2769f6c86d2ae627301ceee9224fb2caf1415b75ee9690a78",
+  "n_candidates": 44,
+  "seed_subject": 2,
+  "n_selected": 5,
+  "selected_subjects_in_order": [
+    2,
+    13,
+    27,
+    23,
+    37
+  ],
+  "selection_variables_only": [
+    "individual_freq",
+    "bl_rt",
+    "uncompressed_bytes"
+  ],
+  "post_stimulation_outcomes_used": false,
+  "tie_breaker": "lowest_subject_number",
+  "marginal_coverage": {
+    "individual_freq": {
+      "full_min": 2.27,
+      "full_median": 3.64,
+      "full_max": 5.79,
+      "selected_min": 2.47,
+      "selected_median": 3.15,
+      "selected_max": 5.01,
+      "selected_span_fraction_of_full_range": 0.721590909090909
+    },
+    "bl_rt": {
+      "full_min": 426.45,
+      "full_median": 522.325,
+      "full_max": 623.84,
+      "selected_min": 436.97,
+      "selected_median": 496.27,
+      "selected_max": 607.84,
+      "selected_span_fraction_of_full_range": 0.8656466892953035
+    },
+    "uncompressed_bytes": {
+      "full_min": 708219392.0,
+      "full_median": 739166720.0,
+      "full_max": 852640256.0,
+      "selected_min": 708219392.0,
+      "selected_median": 739166720.0,
+      "selected_max": 785811968.0,
+      "selected_span_fraction_of_full_range": 0.5372670807453416
+    }
+  }
+}

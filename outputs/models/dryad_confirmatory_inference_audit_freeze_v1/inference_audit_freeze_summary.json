@@ -1,0 +1,9 @@
+{
+  "freeze_id": "dryad_confirmatory_inference_audit_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-27",
+  "n_assets": 9,
+  "participant_level_derivation_changed": false,
+  "primary_estimator_changed": false,
+  "manifest_sha256": "cc4b54d40d48cce5a1c84c4d676d432e08b923324112445934cb370fc3b08602"
+}

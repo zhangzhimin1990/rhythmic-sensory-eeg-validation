@@ -1,0 +1,9 @@
+{
+  "freeze_id": "dryad_claim_release_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "endpoint_estimators_changed": false,
+  "contains_condition_effects": false,
+  "manifest_sha256": "4c18f3bca916e4b6de721ed5e1e56991fb9b4e0ff89c4e86c6af3b0417582450"
+}

@@ -1,0 +1,15 @@
+condition,congruency,response_class,n_trials,median_rt_ms,plausible_rt_fraction,valid_sequence_fraction
+2_hz,congruent,correct,48,412.841796875,1.0,1.0
+2_hz,incongruent,correct,48,464.111328125,1.0,1.0
+f_theta,congruent,correct,46,399.658203125,1.0,1.0
+f_theta,congruent,omission,2,,0.0,1.0
+f_theta,incongruent,correct,47,428.22265625,1.0,1.0
+f_theta,incongruent,incorrect,1,508.7890625,1.0,1.0
+f_theta_plus,congruent,correct,42,370.60546875,1.0,1.0
+f_theta_plus,congruent,incorrect,2,389.6484375,1.0,1.0
+f_theta_plus,incongruent,correct,46,446.77734375,1.0,1.0
+f_theta_plus,incongruent,missing_or_unexpected,1,,0.0,0.0
+non_rhythmic,congruent,correct,47,434.08203125,1.0,1.0
+non_rhythmic,congruent,incorrect,1,397.4609375,1.0,1.0
+non_rhythmic,incongruent,correct,46,465.33203125,1.0,1.0
+non_rhythmic,incongruent,incorrect,2,329.58984375,1.0,1.0

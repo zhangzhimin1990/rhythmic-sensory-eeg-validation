@@ -1,0 +1,31 @@
+{
+  "freeze_id": "dryad_primary_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "primary_estimator_changed": false,
+  "contains_condition_effects": false,
+  "files": [
+    {
+      "path": "scripts/classify_dryad_confirmatory_primary_branch.py",
+      "bytes": 4727,
+      "sha256": "b50373cb5441528439fb589eefcd0317640d05d23cb088c4c4c31a0dc910156d"
+    },
+    {
+      "path": "scripts/freeze_dryad_primary_branch_amendment.py",
+      "bytes": 2706,
+      "sha256": "345a0d5d1f8e3bd2fa6efd89f9c7cd1e063b8c363b1af0ed6c9f1bd2c5cc957e"
+    },
+    {
+      "path": "tests/test_classify_dryad_confirmatory_primary_branch.py",
+      "bytes": 1622,
+      "sha256": "47520769217b2214711927ebad3fc2c7ad566b2fe6ed7b81d288d5045aa249e1"
+    },
+    {
+      "path": "96_Dryad确认性主要结果反向分支补全.md",
+      "bytes": 1787,
+      "sha256": "c252221405cd91f3f24ae303efe37fe701edb28fe65fa819eebf5ade2fe47ee8"
+    }
+  ],
+  "manifest_sha256": "ff91b99e9edf93b54bd6b6b51389e7c1e2d55d19dfc6f880ab97dfa84ce19443"
+}

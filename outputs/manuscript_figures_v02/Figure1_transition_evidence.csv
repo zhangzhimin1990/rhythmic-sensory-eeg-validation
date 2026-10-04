@@ -1,0 +1,5 @@
+transition_id,antecedent,stronger_claim,result,evidence
+T1,Detectable or group-sensitive response,State-general endogenous mechanism,Not established,ds006036: state/metric conditional; L041: phase concentration not mechanism-specific
+T2,High within-recording reliability,Matched cognitive validity,Not established in tested settings,"ds005048: rho 0.838 vs MMSE rho 0.085; ds006780: ITPC 0.972, d-prime 0.931, beta 0.058"
+T3,Target engagement and acute active-control benefit,Within-person neural coupling,Not supported for tested coupling estimand,Dryad N=35: ITPC +0.088; RT -27.73 ms; all four coupling Holm p=1.000
+T4,In-sample neural association,Held-out incremental prediction,No consistent increment,ds007648 and ds006780: no gain; Dryad N=35: no gain over both prediction comparators

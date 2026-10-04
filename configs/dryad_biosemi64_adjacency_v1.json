@@ -1,0 +1,14 @@
+{
+  "identity": "Dryad R2b BioSemi64 spatial adjacency development v1",
+  "montage": "MNE standard montage biosemi64",
+  "coordinate_transform": "normalize each 3-D channel vector to unit length",
+  "distance": "angular distance arccos(clipped dot product)",
+  "directed_selection_k": 4,
+  "symmetrization": "undirected union of channel-wise k-nearest selections",
+  "n_channels": 64,
+  "n_undirected_edges": 143,
+  "minimum_degree": 4,
+  "maximum_degree": 7,
+  "information_boundary": "fixed standard coordinates only; no participant signal, trial condition, target-frequency response, behaviour, or outcome used",
+  "status": "development_component_not_yet_full_r2b_freeze"
+}

@@ -1,0 +1,4 @@
+technical_flag_reason,channel_count
+line_noise_outlier,2
+low_neighbor_correlation_outlier,2
+rms_outlier,13

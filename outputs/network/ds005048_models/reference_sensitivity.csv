@@ -1,0 +1,7 @@
+metric,comparison,n,spearman_rho,p_value
+central_frontal_abs_imcoh,average_vs_native,35,1.0,0.0
+central_frontal_abs_imcoh,average_vs_csd,35,0.5873949579831933,0.00020748013411589315
+central_frontal_abs_imcoh,native_vs_csd,35,0.5873949579831933,0.00020748013411589315
+central_frontal_dwpli2,average_vs_native,35,1.0,0.0
+central_frontal_dwpli2,average_vs_csd,35,0.5582633053221289,0.0004921995178306005
+central_frontal_dwpli2,native_vs_csd,35,0.5582633053221289,0.0004921995178306005

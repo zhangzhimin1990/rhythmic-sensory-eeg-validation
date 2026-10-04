@@ -1,0 +1,9 @@
+condition,metric,split,n,spearman_rho,spearman_brown,p_value_two_sided,interpretation
+f_theta_plus,itpc,odd_even,35,0.9148459383753503,0.9555295494441194,1.5109693914046798e-14,internal_consistency_not_test_retest
+f_theta_plus,itpc,time_half,35,0.9254901960784314,0.9613034623217923,1.8089190492765952e-15,internal_consistency_not_test_retest
+f_theta_plus,evoked_local_log_snr_db,odd_even,35,0.7462184873949581,0.8546679499518769,2.6628550688181804e-07,internal_consistency_not_test_retest
+f_theta_plus,evoked_local_log_snr_db,time_half,35,0.5591036414565826,0.7172116421128278,0.00048061858995476883,internal_consistency_not_test_retest
+non_rhythmic,itpc,odd_even,35,0.930812324929972,0.9641665457710721,5.54399313476754e-16,internal_consistency_not_test_retest
+non_rhythmic,itpc,time_half,35,0.8969187675070028,0.945658594211459,3.08275780115418e-13,internal_consistency_not_test_retest
+non_rhythmic,evoked_local_log_snr_db,odd_even,35,0.07254901960784314,0.13528336380255943,0.6787534791570577,internal_consistency_not_test_retest
+non_rhythmic,evoked_local_log_snr_db,time_half,35,0.13361344537815126,0.2357301704966642,0.44415196895721626,internal_consistency_not_test_retest

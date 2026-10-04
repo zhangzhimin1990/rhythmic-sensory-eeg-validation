@@ -1,0 +1,5 @@
+cohort,measure,frequency_hz,n_subjects,odd_even_spearman_rho,spearman_brown_full_length,sb_bootstrap_ci_low,sb_bootstrap_ci_high,split_rule
+ds007648,accuracy,,20,0.837593984962406,0.911620294599018,0.7303477248848146,0.971183800623053,alternating trials within subject and trial type
+ds007648,median_correct_rt,,20,0.9819548872180449,0.990895295902883,0.9499205087440381,0.9992412746585736,alternating trials within subject and trial type
+ds006780,dprime,27.0,111,0.8453226115023735,0.9161786738354137,0.8630226865927527,0.9490916108397641,alternating trials within subject and trial type
+ds006780,dprime,40.0,111,0.8710475805803201,0.9310800961140259,0.8841202489856592,0.9586649453166387,alternating trials within subject and trial type

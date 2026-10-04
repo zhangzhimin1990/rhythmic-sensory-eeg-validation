@@ -1,0 +1,9 @@
+{
+  "freeze_id": "dryad_group_execution_gate_v1",
+  "status": "frozen_before_confirmatory_cohort_completion",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "scientific_estimators_changed": false,
+  "contains_condition_effects": false,
+  "manifest_sha256": "97f81becf15989df34afa2ac00e1186c88d20ab56fa277cea3042af885b33101"
+}

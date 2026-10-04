@@ -1,0 +1,3 @@
+specification,feature_family,analysis,term,estimate,std_error_cluster,ci_low,ci_high,p_value,scale,n_trials,n_subjects,q_value_within_outcome_four_tests,q_value_primary_two_outcomes,label
+main,phase_projected,rt,hz40_average_contrast,-0.0017900832321248,0.0067259319916341,-0.0149729099357278,0.0113927434714781,0.7901263872314617,log_rt_per_within_subject_sd,7456,20,0.966350241943156,0.7901263872314617,40 Hz
+main,phase_projected,rt,hz36_average_contrast,-0.0113286782298193,0.005989313253015,-0.0230677322057288,0.00041037574609,0.0585600311354285,log_rt_per_within_subject_sd,7456,20,0.2342401245417142,,36 Hz

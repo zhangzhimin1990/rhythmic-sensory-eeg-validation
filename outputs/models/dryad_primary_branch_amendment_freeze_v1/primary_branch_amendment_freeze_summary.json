@@ -1,0 +1,9 @@
+{
+  "freeze_id": "dryad_primary_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "primary_estimator_changed": false,
+  "contains_condition_effects": false,
+  "manifest_sha256": "ff91b99e9edf93b54bd6b6b51389e7c1e2d55d19dfc6f880ab97dfa84ce19443"
+}

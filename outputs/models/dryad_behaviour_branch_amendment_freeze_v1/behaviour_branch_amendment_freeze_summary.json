@@ -1,0 +1,10 @@
+{
+  "freeze_id": "dryad_behaviour_branch_amendment_v1",
+  "status": "frozen_before_completed_cohort_or_group_effect_access",
+  "frozen_on": "2026-09-29",
+  "n_assets": 4,
+  "behavioural_estimators_changed": false,
+  "noninferiority_margin_added": false,
+  "contains_condition_effects": false,
+  "manifest_sha256": "58161638c73358801ed2f68e330a067279916037a22e40dba67fc92798972356"
+}

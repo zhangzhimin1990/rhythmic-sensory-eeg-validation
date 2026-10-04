@@ -1,0 +1,161 @@
+{
+  "declared_subjects_with_assr": 123,
+  "derived_subjects": 123,
+  "technical_usable_subjects": 111,
+  "technical_exclusions": 12,
+  "groups_usable": {
+    "ASD": 54,
+    "TD": 33,
+    "ASD SIBLING": 24
+  },
+  "fsiq_complete_usable": 109,
+  "models": [
+    {
+      "outcome": "dprime_40",
+      "feature_family": "local_log_snr",
+      "quadratic_age": false,
+      "group_interaction": false,
+      "formula": "dprime_40 ~ z_local_log_snr_db_mean_40 + z_local_log_snr_db_mean_27 + age_z + C(sex) + C(group)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "local_log_snr",
+      "quadratic_age": true,
+      "group_interaction": false,
+      "formula": "dprime_40 ~ z_local_log_snr_db_mean_40 + z_local_log_snr_db_mean_27 + age_z + I(age_z ** 2) + C(sex) + C(group)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "local_log_snr",
+      "quadratic_age": false,
+      "group_interaction": true,
+      "formula": "dprime_40 ~ z_local_log_snr_db_mean_40 * C(group) + z_local_log_snr_db_mean_27 + age_z + C(sex)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "local_log_snr",
+      "quadratic_age": false,
+      "group_interaction": false,
+      "formula": "fsiq ~ z_local_log_snr_db_mean_40 + z_local_log_snr_db_mean_27 + age_z + C(sex) + C(group)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "local_log_snr",
+      "quadratic_age": true,
+      "group_interaction": false,
+      "formula": "fsiq ~ z_local_log_snr_db_mean_40 + z_local_log_snr_db_mean_27 + age_z + I(age_z ** 2) + C(sex) + C(group)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "local_log_snr",
+      "quadratic_age": false,
+      "group_interaction": true,
+      "formula": "fsiq ~ z_local_log_snr_db_mean_40 * C(group) + z_local_log_snr_db_mean_27 + age_z + C(sex)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "morlet_power",
+      "quadratic_age": false,
+      "group_interaction": false,
+      "formula": "dprime_40 ~ z_morlet_power_percent_change_mean_40 + z_morlet_power_percent_change_mean_27 + age_z + C(sex) + C(group)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "morlet_power",
+      "quadratic_age": true,
+      "group_interaction": false,
+      "formula": "dprime_40 ~ z_morlet_power_percent_change_mean_40 + z_morlet_power_percent_change_mean_27 + age_z + I(age_z ** 2) + C(sex) + C(group)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "morlet_power",
+      "quadratic_age": false,
+      "group_interaction": true,
+      "formula": "dprime_40 ~ z_morlet_power_percent_change_mean_40 * C(group) + z_morlet_power_percent_change_mean_27 + age_z + C(sex)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "morlet_power",
+      "quadratic_age": false,
+      "group_interaction": false,
+      "formula": "fsiq ~ z_morlet_power_percent_change_mean_40 + z_morlet_power_percent_change_mean_27 + age_z + C(sex) + C(group)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "morlet_power",
+      "quadratic_age": true,
+      "group_interaction": false,
+      "formula": "fsiq ~ z_morlet_power_percent_change_mean_40 + z_morlet_power_percent_change_mean_27 + age_z + I(age_z ** 2) + C(sex) + C(group)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "morlet_power",
+      "quadratic_age": false,
+      "group_interaction": true,
+      "formula": "fsiq ~ z_morlet_power_percent_change_mean_40 * C(group) + z_morlet_power_percent_change_mean_27 + age_z + C(sex)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "itpc",
+      "quadratic_age": false,
+      "group_interaction": false,
+      "formula": "dprime_40 ~ z_itpc_40 + z_itpc_27 + age_z + C(sex) + C(group)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "itpc",
+      "quadratic_age": true,
+      "group_interaction": false,
+      "formula": "dprime_40 ~ z_itpc_40 + z_itpc_27 + age_z + I(age_z ** 2) + C(sex) + C(group)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "dprime_40",
+      "feature_family": "itpc",
+      "quadratic_age": false,
+      "group_interaction": true,
+      "formula": "dprime_40 ~ z_itpc_40 * C(group) + z_itpc_27 + age_z + C(sex)",
+      "n_subjects": 111
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "itpc",
+      "quadratic_age": false,
+      "group_interaction": false,
+      "formula": "fsiq ~ z_itpc_40 + z_itpc_27 + age_z + C(sex) + C(group)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "itpc",
+      "quadratic_age": true,
+      "group_interaction": false,
+      "formula": "fsiq ~ z_itpc_40 + z_itpc_27 + age_z + I(age_z ** 2) + C(sex) + C(group)",
+      "n_subjects": 109
+    },
+    {
+      "outcome": "fsiq",
+      "feature_family": "itpc",
+      "quadratic_age": false,
+      "group_interaction": true,
+      "formula": "fsiq ~ z_itpc_40 * C(group) + z_itpc_27 + age_z + C(sex)",
+      "n_subjects": 109
+    }
+  ],
+  "feature_algorithm_version": [
+    "3.0.0"
+  ]
+}
