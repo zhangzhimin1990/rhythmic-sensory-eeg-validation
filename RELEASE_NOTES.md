@@ -2,6 +2,8 @@
 
 This maintenance release adds the previously omitted `openpyxl==3.1.5` test dependency and updates citation metadata for the NeuroImage submission. Analysis code, derived data, numerical results, figures, claim boundaries, and the 254-test suite are unchanged from v1.0.0.
 
+The immutable release resolves to commit `8c8077ed892d330c2bee589c548b08da35575cf7`, Git tag `v1.0.1`, and Zenodo version DOI `10.5281/zenodo.23682820`.
+
 ## Release v1.0.0
 
 This is the first archival release of the analysis package supporting **“Testing cognitive validity of rhythmic-sensory EEG target engagement.”**
