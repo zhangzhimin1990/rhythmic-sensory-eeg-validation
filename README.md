@@ -14,7 +14,7 @@ This is not a clinical trial and does not test chronic treatment efficacy or dis
 
 ### Level 1: regenerate manuscript figures from audited derived outputs
 
-The archived v1.0.0 release contains the code, source-backed derived tables, model outputs, tests, and manifests needed to rebuild Figures 1–7 and rerun the claim-strength analysis without redistributing source EEG. The immutable archive is available at https://doi.org/10.5281/zenodo.23137958.
+The archived v1.0.0 release contains the code, source-backed derived tables, model outputs, tests, and manifests needed to rebuild Figures 1–7 and rerun the claim-strength analysis without redistributing source EEG. Maintenance release v1.0.1 adds the explicitly pinned Excel test dependency and updates citation metadata without changing analysis code or results. The v1.0.0 immutable archive remains available at https://doi.org/10.5281/zenodo.23137958.
 
 ```bash
 python3 -m venv .venv
