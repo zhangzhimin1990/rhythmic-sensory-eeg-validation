@@ -21,7 +21,7 @@ identifiers:
     description: "Archived software release v1.0.1"
 preferred-citation:
   type: article
-  title: "Separating target engagement from cognitive validity in rhythmic sensory EEG across seven human cohorts"
+  title: "From target engagement to cognitive validity in rhythmic sensory EEG: a claim-matched evaluation of seven public datasets"
   authors:
     - family-names: Zhang
       given-names: Zhimin

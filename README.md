@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23682820.svg)](https://doi.org/10.5281/zenodo.23682820)
 
-This repository contains the analysis code, minimized derived data, model outputs, figure-source tables, frozen protocols, and automated tests supporting the article **"Separating target engagement from cognitive validity in rhythmic sensory EEG across seven human cohorts."**
+This repository contains the analysis code, minimized derived data, model outputs, figure-source tables, frozen protocols, and automated tests supporting the article **"From target engagement to cognitive validity in rhythmic sensory EEG: a claim-matched evaluation of seven public datasets."**
 
 The study uses seven public human EEG datasets to test four distinct inferential transitions: response to mechanism, reliability to cognitive validity, mean active-control effect to within-participant neural–behavioral coupling, and in-sample association to held-out prediction. Raw EEG recordings are not redistributed.
 
