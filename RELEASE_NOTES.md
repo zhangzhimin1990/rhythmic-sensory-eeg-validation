@@ -1,4 +1,10 @@
-# Release v1.0.1
+# Public-package cleanup (29 October 2026)
+
+The current public branch was reduced to the materials needed to inspect and reproduce the reported analysis. Historical manuscript drafts, journal-specific submission files, internal planning notes, process commentary, and redundant release-planning documents were removed. Public filenames are now English-only. The analysis scripts, frozen protocols, minimized derived inputs, model outputs, figure-source tables, automated tests, licence, citation metadata, and file checksums were retained.
+
+This cleanup does not alter the v1.0.1 analysis results or the immutable Zenodo archive. The `v1.0.1` Git tag remains the recoverable archival snapshot.
+
+## Release v1.0.1
 
 This maintenance release adds the previously omitted `openpyxl==3.1.5` test dependency and updates citation metadata for the NeuroImage submission. Analysis code, derived data, numerical results, figures, claim boundaries, and the 254-test suite are unchanged from v1.0.0.
 

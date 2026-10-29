@@ -14,12 +14,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "outputs/models/dryad_confirmatory_inference_audit_freeze_v1"
 ASSETS = (
     "configs/dryad_confirmatory_protocol_v1.json",
-    "86_Dryad确认性神经行为分析冻结方案.md",
-    "87_Dryad确认性冻结与结果前偏离审计.md",
-    "88_Dryad确认性结果判定与推断完整性锁定.md",
+    "configs/dryad_r2b_protocol_frozen_v1.json",
+    "scripts/validate_dryad_confirmatory_protocol.py",
     "scripts/analyze_dryad_confirmatory_group.py",
     "scripts/audit_dryad_confirmatory_group_inference.py",
     "scripts/freeze_dryad_confirmatory_inference_audit.py",
+    "tests/test_dryad_confirmatory_protocol.py",
     "tests/test_analyze_dryad_confirmatory_group.py",
     "tests/test_audit_dryad_confirmatory_group_inference.py",
 )

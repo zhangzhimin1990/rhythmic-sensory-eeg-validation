@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "outputs/models/dryad_confirmatory_protocol_freeze_v1"
 ASSETS = (
     "configs/dryad_confirmatory_protocol_v1.json",
-    "86_Dryad确认性神经行为分析冻结方案.md",
+    "configs/dryad_r2b_protocol_frozen_v1.json",
     "scripts/validate_dryad_confirmatory_protocol.py",
     "scripts/derive_dryad_confirmatory_subject.py",
     "scripts/analyze_dryad_confirmatory_group.py",

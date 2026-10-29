@@ -263,7 +263,7 @@ def build_figure(output_dir: Path) -> list[Path]:
     input_paths = [neural_path, behaviour_path, coupling_path, prediction_path, sensitivity_path, *subject_paths]
     manifest = {
         "figure": "Figure7_dryad_confirmatory",
-        "generated_from_locked_structure": "89_Dryad确认性Figure7与正文回填方案.md",
+        "generated_from_locked_structure": "configs/dryad_confirmatory_protocol_v1.json",
         "n_confirmatory": 35,
         "inputs": {str(path.relative_to(ROOT)): sha256(path) for path in input_paths},
         "panels": {
