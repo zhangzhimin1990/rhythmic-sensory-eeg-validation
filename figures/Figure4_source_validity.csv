@@ -1,0 +1,4 @@
+outcome,estimate_ci,interpretation
+ds007648 accuracy,"-0.056 [-0.511, +0.435] Spearman rho",unresolved
+ds007648 correct RT,"+0.113 [-0.350, +0.515] Spearman rho",unresolved
+ds006780 d-prime,"+0.058 [-0.255, +0.370] outcome SD",equivalence not established

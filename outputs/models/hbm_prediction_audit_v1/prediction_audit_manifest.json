@@ -1,0 +1,29 @@
+{
+  "protocol_id": "hbm_prediction_audit_amendment_v1",
+  "classification": "post-result robustness audit frozen before calibration and permutation outcomes were inspected",
+  "datasets": [
+    "Dryad",
+    "ds006780",
+    "ds007648"
+  ],
+  "n_prediction_rows": 32580,
+  "inputs": {
+    "protocol": {
+      "path": "configs/hbm_prediction_audit_amendment_v1.json",
+      "sha256": "c9018c84f0643474416d6da3371bd33f81f2506f4be2e19aa7ec100707eb8a12"
+    },
+    "dryad_predictions": {
+      "path": "outputs/models/dryad_confirmatory_group_v1/nested_prediction_rows.csv",
+      "sha256": "d5ff639bf50b6cd5d91149eb01f3fd7c3f0115360314c5cf6e288544e5615b8d"
+    },
+    "ds007648_trial_features": {
+      "path": "outputs/derived/ds007648_trial_features/all_trial_features.csv",
+      "sha256": "98388aa1f1d773180bbdc1177e341216895ca00b176ffc36d993d53bc9ff7df5"
+    },
+    "ds006780_subject_features": {
+      "path": "outputs/models/ds006780_behavioral_validity/subject_level_features.csv",
+      "sha256": "8e0b7907b646b0a618fe47d4a4cfa0bcbf25f428d5b66de865479877b6d53357"
+    }
+  },
+  "status": "hbm_prediction_audit_complete"
+}

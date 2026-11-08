@@ -1,0 +1,12 @@
+{
+  "protocol_id": "hbm_research_article_additional_analysis_v1",
+  "classification": "post-result robustness analysis, not confirmatory",
+  "subject": 30,
+  "source_bdf_sha256": "c2e23226d0c0d83281869838b26d61798841038fe22035d37cfd6113446b7676",
+  "confirmatory_protocol_id": "dryad_theta_plus_confirmatory_v1",
+  "individual_theta_hz": 3.83,
+  "analysis_frequency_hz": 5.0939000000000005,
+  "n_good_frozen_qc_channels": 59,
+  "n_technical_usable_epochs_reproduced": 384,
+  "status": "hbm_spatial_subject_complete"
+}

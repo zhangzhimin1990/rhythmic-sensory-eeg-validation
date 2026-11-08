@@ -1,0 +1,9 @@
+{
+  "subject": 7,
+  "expected_uncompressed_bytes": 733784576,
+  "individual_theta_hz": 4.03,
+  "source_bdf_sha256": "6b4c6f6b0a4a2604716011cc87761826379f42f3d8b9cb399e305e505e92b621",
+  "confirmatory_freeze_manifest_sha256": "ba3d76e2dfbc5c64daf74278898da338590f9029c99947bbccc6065f403d3dea",
+  "temporary_bdf_deleted_after_verification": true,
+  "status": "confirmatory_subject_complete"
+}

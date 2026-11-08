@@ -1,0 +1,46 @@
+{
+  "protocol_id": "hbm_prediction_audit_amendment_v1",
+  "classification": "post-result robustness audit frozen before calibration and permutation outcomes were inspected",
+  "parent_protocol": "hbm_research_article_additional_analysis_v1",
+  "status": "frozen_before_audit_execution",
+  "datasets": ["Dryad", "ds007648", "ds006780"],
+  "constraints": {
+    "outcomes": "identical to existing prediction analyses",
+    "features": "identical to existing baseline and baseline-plus-neural models",
+    "outer_splits": "identical to existing analyses",
+    "tuning": "identical to existing analyses and confined to training data",
+    "model_shopping": "prohibited"
+  },
+  "subject_level_prediction_rows": {
+    "Dryad": "existing nested leave-one-subject-out predictions",
+    "ds007648": "re-run the existing leave-one-subject-out pipeline and retain trial predictions; aggregate loss within held-out participant",
+    "ds006780": "re-run the existing 10x10 repeated K-fold pipeline; average each participant's 10 held-out predictions before subject-level evaluation"
+  },
+  "loss_increment": "neural-model loss minus baseline-model loss; negative values favor neural features",
+  "null_distribution": {
+    "method": "two-sided paired sign-flip test of participant-level loss increments",
+    "permutations": 100000,
+    "random_seed": 20261105,
+    "p_value": "(1 + count(abs(null mean) >= abs(observed mean))) / (permutations + 1)"
+  },
+  "calibration": {
+    "continuous_outcomes": "participant-level OLS of observed outcome on held-out prediction, reported as intercept, slope, and R-squared",
+    "binary_trial_outcome_ds007648": "GEE logistic calibration of observed correctness on the logit of held-out probability, clustered by participant",
+    "interpretation": "descriptive; calibration does not replace comparative held-out loss"
+  },
+  "stability": {
+    "outer_unit_summary": [
+      "fraction of participants with lower neural-model loss",
+      "median and interquartile range of paired loss increment",
+      "minimum and maximum leave-one-participant-out mean increment"
+    ],
+    "interpretation": "performance stability, not coefficient-selection stability"
+  },
+  "prohibitions": [
+    "no new outcomes",
+    "no new EEG features",
+    "no alternative model families",
+    "no threshold chosen from observed audit results",
+    "no claim that failure to improve prediction proves absence of a brain-behavior relationship"
+  ]
+}

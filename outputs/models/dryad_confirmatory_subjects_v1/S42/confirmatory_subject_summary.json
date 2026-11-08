@@ -1,0 +1,22 @@
+{
+  "subject": 42,
+  "source_bdf_name": "S42_Stim.bdf",
+  "source_bdf_sha256": "2b9c8a80a9f439517165747d9f0c7e8ba2a02bf81a083adb17a1460cad83d7d7",
+  "individual_theta_hz": 2.66,
+  "analysis_frequency_hz": 3.5378000000000003,
+  "n_good_frozen_qc_channels": 57,
+  "frontocentral_roi": [
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4"
+  ],
+  "n_technical_usable_epochs_reproduced": 384,
+  "confirmatory_conditions": [
+    "f_theta_plus",
+    "non_rhythmic"
+  ],
+  "primary_metric": "mean_itpc_in_stimulation_window",
+  "status": "confirmatory_subject_derivation_complete"
+}

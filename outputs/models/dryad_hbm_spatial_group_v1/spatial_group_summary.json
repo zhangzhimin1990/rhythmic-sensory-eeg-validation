@@ -1,0 +1,10 @@
+{
+  "protocol_id": "hbm_research_article_additional_analysis_v1",
+  "classification": "post-result robustness analysis, not confirmatory",
+  "n_subjects": 35,
+  "metrics": [
+    "mean_itpc_in_stimulation_window",
+    "evoked_local_log_snr_db"
+  ],
+  "status": "hbm_spatial_group_analysis_complete"
+}

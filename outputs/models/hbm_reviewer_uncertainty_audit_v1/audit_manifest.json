@@ -1,0 +1,21 @@
+{
+  "analysis_id": "hbm_reviewer_uncertainty_audit_v1",
+  "classification": "post-review robustness analysis, not confirmatory",
+  "purpose": "quantify effect uncertainty without refitting or selecting prediction models",
+  "bootstrap": {
+    "method": "participant percentile bootstrap",
+    "iterations": 20000,
+    "seed": 20261106,
+    "interval": 0.95
+  },
+  "inputs": {
+    "outputs/models/hbm_prediction_audit_v1/participant_loss_increments.csv": "014e9c8b1fa036cb9476409b1b5688c1c092883f515e3bc90f387ea94ac4065f",
+    "outputs/models/ds007648_behavioral_validity/split_half_values.csv": "c4c850d14c491fb93b5ad822365fbaf7e9a071bdb01e67460068f27b16a26e57",
+    "outputs/models/ds006780_behavioral_validity/subject_level_features.csv": "8e0b7907b646b0a618fe47d4a4cfa0bcbf25f428d5b66de865479877b6d53357"
+  },
+  "outputs": {
+    "outputs/models/hbm_reviewer_uncertainty_audit_v1/prediction_increment_bootstrap.csv": "df77a43c2ec012f32f8b2b8fae41e374a36759ad5049b7d073e4ec39562b1847",
+    "outputs/models/hbm_reviewer_uncertainty_audit_v1/matched_itpc_reliability_bootstrap.csv": "dce736d94279f7eb5c671e1b2d59193b4af670c4bc6c9b7f04084c21d6419aaf"
+  },
+  "claim_boundary": "Intervals quantify uncertainty in frozen participant-level summaries. They do not convert absence of support into proof of no effect."
+}

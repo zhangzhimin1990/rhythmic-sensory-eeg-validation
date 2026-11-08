@@ -1,7 +1,7 @@
 {
-  "title": "Rhythmic sensory EEG cognitive validity analysis",
+  "title": "Claim-matched validation dissociates robust stimulus-locked electroencephalographic responses from cognitive validity and incremental prediction",
   "upload_type": "software",
-  "description": "Reproducible analysis code, audited derived outputs, figures, and claim-boundary checks for a seven-cohort secondary analysis of human EEG responses to rhythmic visual, auditory, and audiovisual stimulation. The package tests transitions from frequency-following target engagement to reliability, cognitive validity, acute behavioral benefit, neural-behavioral coupling, and held-out prediction. Source EEG recordings are not redistributed.",
+  "description": "Reproducible analysis code, minimized derived inputs, machine-readable results, figure source data, and tests for a three-cohort human EEG study separating stimulus-locked target engagement, reliability, matched cognitive validity, and participant-held-out incremental prediction. Source EEG recordings are not redistributed.",
   "creators": [
     {
       "name": "Zhang, Zhimin",
@@ -23,12 +23,11 @@
   "keywords": [
     "electroencephalography",
     "rhythmic sensory stimulation",
-    "auditory stimulation",
-    "visual stimulation",
     "target engagement",
-    "cognitive validity",
     "reliability",
-    "prediction",
+    "cognitive validity",
+    "participant-held-out prediction",
     "reproducible research"
   ]
 }
+

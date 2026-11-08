@@ -1,0 +1,68 @@
+{
+  "protocol_id": "hbm_research_article_additional_analysis_v1",
+  "status": "frozen_before_additional_signal_reaccess",
+  "target_journal": "Human Brain Mapping",
+  "article_type": "Research Article",
+  "central_question": "whether stimulus-locked response strength and within-recording reliability explain concurrent cognitive performance or improve held-out individual prediction",
+  "datasets": {
+    "primary": "Dryad 10.5061/dryad.t76hdr8dm, frozen 35-person confirmatory cohort",
+    "external_validation": ["OpenNeuro ds007648", "OpenNeuro ds006780"],
+    "excluded_from_main_article": ["OpenNeuro ds004504", "OpenNeuro ds006036", "OpenNeuro ds005048", "OpenNeuro ds006222"]
+  },
+  "dryad_spatial_robustness": {
+    "classification": "post-result robustness analysis, not confirmatory",
+    "subjects": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 21, 22, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 38, 39, 40, 42, 43, 44],
+    "conditions": ["f_theta_plus", "non_rhythmic"],
+    "analysis_frequency": "1.33 * individual_theta_hz",
+    "preprocessing": "identical to dryad_theta_plus_confirmatory_v1",
+    "analysis_window_seconds": [0.25, 1.75],
+    "metrics": ["mean_itpc_in_stimulation_window", "evoked_local_log_snr_db"],
+    "primary_roi": ["FC3", "FC1", "FCz", "FC2", "FC4"],
+    "anatomical_control_roi": ["P3", "P1", "Pz", "P2", "P4"],
+    "roi_estimand": "participant-level (theta-plus minus non-rhythmic) contrast in primary ROI minus the same contrast in anatomical control ROI",
+    "channel_estimand": "participant-level theta-plus minus non-rhythmic contrast at each frozen-QC good scalp channel",
+    "channel_inference": {
+      "method": "two-sided paired sign-flip cluster-mass permutation",
+      "adjacency": "configs/dryad_biosemi64_adjacency_v1.csv",
+      "cluster_forming_alpha_two_sided": 0.05,
+      "permutations": 10000,
+      "random_seed": 20261103,
+      "multiplicity": "maximum absolute cluster mass separately recomputed for every permutation"
+    },
+    "prohibitions": [
+      "no channel, ROI, time-window, or frequency selection after viewing spatial effects",
+      "no source localization",
+      "no replacement of the original frozen primary ITPC estimand",
+      "no entrainment-mechanism claim from spatial localization"
+    ]
+  },
+  "precision_audit": {
+    "classification": "estimation and compatibility-interval audit",
+    "rules": [
+      "report the original estimate and confidence interval before any threshold interpretation",
+      "do not convert failure to reject into evidence of absence",
+      "Dryad coupling is classified as unresolved when intervals include effects of practical importance",
+      "ds006780 d-prime validity is not called equivalent when the interval exceeds the declared bound",
+      "all smallest-effect thresholds must be justified independently of observed estimates"
+    ]
+  },
+  "prediction_audit": {
+    "classification": "locked re-evaluation of existing predictions",
+    "datasets": ["Dryad", "ds007648", "ds006780"],
+    "required_outputs": ["out-of-sample error difference", "participant- or fold-resampled confidence interval", "null permutation distribution", "calibration summary", "feature/model stability summary"],
+    "constraints": [
+      "preserve original outcomes, feature sets, and outer splits",
+      "all tuning remains inside training data",
+      "no model shopping based on performance",
+      "prediction cannot rescue an unsupported mechanistic claim"
+    ]
+  },
+  "prohibited_extensions": [
+    "new frequency-band search",
+    "data-driven time-window search",
+    "new diagnostic subgroup search",
+    "new cognitive outcome search",
+    "pooling raw effects across heterogeneous datasets",
+    "clinical efficacy or disease-modification inference"
+  ]
+}

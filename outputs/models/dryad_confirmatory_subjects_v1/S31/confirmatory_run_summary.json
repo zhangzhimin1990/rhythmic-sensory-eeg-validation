@@ -1,0 +1,15 @@
+{
+  "subject": 31,
+  "expected_uncompressed_bytes": 747688448,
+  "individual_theta_hz": 3.35,
+  "source_bdf_sha256": "2ec4b4d6f46bdd529fb0333ea61eed1a8fff24902c5881eb90c866d65c309353",
+  "confirmatory_freeze_manifest_sha256": "ba3d76e2dfbc5c64daf74278898da338590f9029c99947bbccc6065f403d3dea",
+  "temporary_bdf_deleted_after_verification": true,
+  "status": "confirmatory_subject_complete",
+  "post_freeze_amendment_ids": [
+    "dryad_confirmatory_runner_input_guard_v1",
+    "dryad_confirmatory_resumable_transport_v1",
+    "dryad_confirmatory_incomplete_read_retry_v1"
+  ],
+  "transport": "persistent compressed-member ranges; CRC, size, and BDF SHA-256 verified"
+}

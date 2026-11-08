@@ -1,12 +1,8 @@
 {
-  "release_candidate": "rhythmic-sensory-eeg-validation",
-  "file_count": 500,
-  "issue_counts": {
-    "Critical": 0,
-    "High": 0,
-    "Medium": 0,
-    "Low": 0
-  },
-  "machine_audit_passed": true,
-  "ethics_license_manual_review_required": true
+  "release": "hbm_focused_v2",
+  "status": "pass",
+  "file_count": 337,
+  "total_bytes": 8546420,
+  "largest_file_bytes": 3924398,
+  "violations": []
 }

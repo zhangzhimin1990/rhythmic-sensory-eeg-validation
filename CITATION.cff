@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the software archive and the associated article."
-title: "Rhythmic sensory EEG cognitive validity analysis"
+message: "If you use this software, please cite the archived software release and the associated article."
+title: "Claim-matched validation dissociates robust stimulus-locked electroencephalographic responses from cognitive validity and incremental prediction"
 type: software
 authors:
   - family-names: Zhang
@@ -11,17 +11,13 @@ authors:
   - family-names: Li
     given-names: Yuwen
     orcid: "https://orcid.org/0000-0003-3060-836X"
-version: 1.0.1
-date-released: 2026-10-27
+version: 2.0.0
+date-released: 2026-11-08
 license: MIT
 repository-code: "https://github.com/zhangzhimin1990/rhythmic-sensory-eeg-validation"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.23682820"
-    description: "Archived software release v1.0.1"
 preferred-citation:
   type: article
-  title: "From target engagement to cognitive validity in rhythmic sensory EEG: a claim-matched evaluation of seven public datasets"
+  title: "Claim-matched validation dissociates robust stimulus-locked electroencephalographic responses from cognitive validity and incremental prediction"
   authors:
     - family-names: Zhang
       given-names: Zhimin
@@ -31,4 +27,4 @@ preferred-citation:
     - family-names: Li
       given-names: Yuwen
       orcid: "https://orcid.org/0000-0003-3060-836X"
-  journal: "NeuroImage"
+

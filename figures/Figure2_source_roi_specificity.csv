@@ -1,0 +1,3 @@
+metric,estimand,n_subjects,mean,ci95_low,ci95_high,paired_dz,p_value_two_sided
+mean_itpc_in_stimulation_window,frontocentral_condition_contrast_minus_posterior_condition_contrast,35,0.0302544452075727,0.0122327613527831,0.0482761290623624,0.5766811599206425,0.0016821076135056
+evoked_local_log_snr_db,frontocentral_condition_contrast_minus_posterior_condition_contrast,35,2.5114840713242796,-0.5640611565000895,5.587029299148648,0.2805112262919024,0.1062072491223376
