@@ -4,6 +4,8 @@ This repository contains the author-generated analysis code, minimized derived i
 
 > Claim-matched validation dissociates robust stimulus-locked electroencephalographic responses from cognitive validity and incremental prediction
 
+Frozen software release: [v2.0.0](https://github.com/zhangzhimin1990/rhythmic-sensory-eeg-validation/releases/tag/v2.0.0) · Zenodo DOI: [10.5281/zenodo.24065026](https://doi.org/10.5281/zenodo.24065026)
+
 The article uses three public human EEG datasets to test four distinct measurement claims: stimulus-locked target engagement, within-recording reliability, matched concurrent cognitive validity, and participant-held-out incremental prediction. The package does not redistribute source EEG recordings.
 
 ## Datasets
